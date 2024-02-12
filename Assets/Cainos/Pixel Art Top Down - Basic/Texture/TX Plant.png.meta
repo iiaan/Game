@@ -387,7 +387,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TX Bush T6
+      name: stick
       rect:
         serializedVersion: 2
         x: 346
@@ -417,7 +417,7 @@ TextureImporter:
         height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 51, y: 1, z: 53, w: 35}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -990,7 +990,6 @@ TextureImporter:
       TX Bush T3: 21300140
       TX Bush T4: 21300138
       TX Bush T5: 21300132
-      TX Bush T6: 21300080
       TX Flower: 21300174
       TX Grass A: 21300144
       TX Grass B: 21300146
@@ -1013,6 +1012,7 @@ TextureImporter:
       TX Tree T2 Upper: 21300128
       TX Tree T3 Lower: 21300082
       TX Tree T3 Upper: 21300084
+      stick: 21300080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
