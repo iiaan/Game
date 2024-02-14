@@ -561,13 +561,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props Rune Pillar X3 Glow
+      name: arriba
       rect:
         serializedVersion: 2
-        x: 270
-        y: 361
-        width: 5
-        height: 40
+        x: 99
+        y: 337
+        width: 27
+        height: 15
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,13 +732,13 @@ TextureImporter:
       name: TX Props Road Sign E
       rect:
         serializedVersion: 2
-        x: 99
+        x: 108
         y: 320
-        width: 27
-        height: 32
+        width: 6
+        height: 17
       alignment: 9
       pivot: {x: 0.44592682, y: -0.0006246567}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 6, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1419,7 +1419,6 @@ TextureImporter:
       TX Props Rune Pillar X2: 21300042
       TX Props Rune Pillar X2 Glow: 21300044
       TX Props Rune Pillar X3: 21300058
-      TX Props Rune Pillar X3 Glow: 21300062
       TX Props Statue: 21300114
       TX Props Stone Bench E: 21300100
       TX Props Stone Bench S: 21300096
@@ -1438,6 +1437,7 @@ TextureImporter:
       TX Props Well: 21300164
       TX Props Wooden Gate: 21300158
       TX Props Wooden Gate Opened: 21300160
+      arriba: 21300062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
