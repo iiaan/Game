@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -11,8 +12,6 @@ public class Movement : MonoBehaviour
     public bool Default;
     private float Horizontal;
     private float Vertical;
-
-    public bool changeLevelCollider = false;
 
     // Start is called before the first frame update
     void Start()
@@ -72,21 +71,5 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         Rigidbody2D.velocity = new Vector2(Horizontal, Vertical);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Capsule"))
-        {
-            changeLevelCollider = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Capsule"))
-        {
-            changeLevelCollider = false;
-        }
     }
 }
