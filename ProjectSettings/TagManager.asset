@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Capsule
   - Capsule2
+  - gnomos
   layers:
   - Default
   - TransparentFX
