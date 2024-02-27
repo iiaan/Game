@@ -10,11 +10,13 @@ public class Gnomos : MonoBehaviour
     [SerializeField]
     private GnomosRecogidos puntaje;
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    void Start() { }
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
 
-        if (collision.collider.CompareTag("gnomos"))
+        if (collision.CompareTag("gnomos"))
         {
             puntaje.SumarGnomos(CantidadGnomos);
             Destroy(gnomo);
@@ -22,8 +24,7 @@ public class Gnomos : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start() { }
+
 
     // Update is called once per frame
-    void Update() { }
 }
