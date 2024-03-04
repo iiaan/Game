@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Sound : MonoBehaviour
 {
-    private AudioSource audioSource;
-
     [SerializeField]
     private AudioClip up;
 

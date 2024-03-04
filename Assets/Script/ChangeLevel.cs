@@ -11,16 +11,17 @@ public class ChangeLevel : MonoBehaviour
     {
         {
             GameObject personaje = GameObject.FindGameObjectWithTag("Player");
+            GameObject interfaz = GameObject.FindGameObjectWithTag("NumeroGnomos");
 
             if (collision.collider.CompareTag("Capsule"))
             {
-                CargarEscena(1);
+                CargarEscena(2);
 
                 DontDestroyOnLoad(personaje);
             }
             else if (collision.collider.CompareTag("Capsule2"))
             {
-                CargarEscena(0);
+                CargarEscena(1);
                 Destroy(personaje);
             }
 

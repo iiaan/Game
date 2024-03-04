@@ -10,16 +10,36 @@ public class Gnomos : MonoBehaviour
     [SerializeField]
     private GnomosRecogidos puntaje;
 
-    void Start() { }
+    [SerializeField]
+    private AudioClip up;
+    private bool Colisionando = false;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public GameObject AyudaPlayer;
+
+    void Start()
+    {
+        AyudaPlayer.SetActive(false);
+    }
+
+    void Update()
     {
         GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
 
-        if (collision.CompareTag("gnomos"))
+        if (Input.GetKeyDown(KeyCode.E) && Colisionando == true)
         {
+            AyudaPlayer.SetActive(false);
+            ControladorDeSonidos.Instance.EjecutarSonido(up);
             puntaje.SumarGnomos(CantidadGnomos);
             Destroy(gnomo);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("gnomos"))
+        {
+            AyudaPlayer.SetActive(true);
+            Colisionando = true;
         }
     }
 

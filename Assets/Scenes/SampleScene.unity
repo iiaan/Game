@@ -6099,6 +6099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TransicionEscena
       objectReference: {fileID: 0}
+    - target: {fileID: 8937094417382498712, guid: fd4ec4b0c5ee6e34bb81244515a9b532,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
