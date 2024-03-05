@@ -1427,6 +1427,8 @@ MonoBehaviour:
   puntaje: {fileID: 1205237799}
   up: {fileID: 8300000, guid: 147cd5765a1492141af0221ca14d3720, type: 3}
   AyudaPlayer: {fileID: 1009819062}
+  animacion: {fileID: 326014610}
+  delay: 2
 --- !u!1 &178931354
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,6 +2321,7 @@ GameObject:
   - component: {fileID: 326014607}
   - component: {fileID: 326014606}
   - component: {fileID: 326014609}
+  - component: {fileID: 326014610}
   m_Layer: 0
   m_Name: Gnomo
   m_TagString: gnomos
@@ -2408,8 +2411,8 @@ Transform:
   m_GameObject: {fileID: 326014605}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: 0.62, z: 0}
-  m_LocalScale: {x: 1.3581196, y: 1.4599787, z: 1.3581196}
+  m_LocalPosition: {x: 0.64, y: 0.68, z: 0}
+  m_LocalScale: {x: 1.5741965, y: 1.6922613, z: 1.5741965}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2459,6 +2462,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.47926247, y: 0.65077156}
   m_EdgeRadius: 0
+--- !u!114 &326014610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326014605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac0c0408ba1c134da9e474658623a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &332713076
 GameObject:
   m_ObjectHideFlags: 0

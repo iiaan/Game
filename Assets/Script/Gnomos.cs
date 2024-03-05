@@ -16,6 +16,11 @@ public class Gnomos : MonoBehaviour
 
     public GameObject AyudaPlayer;
 
+    [SerializeField]
+    private AnimacionGnomo animacion;
+
+    public float delay = 2.0f;
+
     void Start()
     {
         AyudaPlayer.SetActive(false);
@@ -23,15 +28,21 @@ public class Gnomos : MonoBehaviour
 
     void Update()
     {
-        GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
-
         if (Input.GetKeyDown(KeyCode.E) && Colisionando == true)
         {
-            AyudaPlayer.SetActive(false);
-            ControladorDeSonidos.Instance.EjecutarSonido(up);
-            puntaje.SumarGnomos(CantidadGnomos);
-            Destroy(gnomo);
+            StartCoroutine(ActivarConDelay());
         }
+    }
+
+    IEnumerator ActivarConDelay()
+    {
+        GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
+        animacion.ActivarAnimacion(true);
+        AyudaPlayer.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        ControladorDeSonidos.Instance.EjecutarSonido(up);
+        puntaje.SumarGnomos(CantidadGnomos);
+        gnomo.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,8 +54,12 @@ public class Gnomos : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-
-
-    // Update is called once per frame
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("gnomos"))
+        {
+            AyudaPlayer.SetActive(false);
+            Colisionando = false;
+        }
+    }
 }
