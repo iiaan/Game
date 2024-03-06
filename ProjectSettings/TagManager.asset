@@ -9,6 +9,7 @@ TagManager:
   - gnomos
   - NumeroGnomos
   - AyudaPlayer
+  - DialogoPrincesa
   layers:
   - Default
   - TransparentFX

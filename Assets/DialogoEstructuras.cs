@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class DialogManager : MonoBehaviour
+public class DialogoEstructuras : MonoBehaviour
 {
     private bool Active;
 
@@ -25,8 +25,6 @@ public class DialogManager : MonoBehaviour
 
     private int lineIndex;
 
-    private Animator animator;
-
     private float TypingTime = 0.05f;
 
     [SerializeField]
@@ -34,15 +32,11 @@ public class DialogManager : MonoBehaviour
 
     // Update is called once per frame
 
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-        MovimientoJugador.movimientoBloqueado = false;
-    }
+
 
     void Update()
     {
-        if (isPlayerInRange == true)
+        if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.Space))
         {
             if (!Active)
             {
@@ -60,13 +54,13 @@ public class DialogManager : MonoBehaviour
 
     public void StartDialog()
     {
+        Canvas.SetActive(true);
         dialoguePanel.SetActive(true);
-
         Active = true;
-
         lineIndex = 0;
-
         StartCoroutine(ShowLine());
+        Time.timeScale = 0f;
+        MovimientoJugador.movimientoBloqueado = false;
     }
 
     private void NextDialogue()
@@ -78,7 +72,7 @@ public class DialogManager : MonoBehaviour
         }
         else
         {
-            StartCoroutine(EndDialog());
+            EndDialog();
         }
     }
 
@@ -89,7 +83,7 @@ public class DialogManager : MonoBehaviour
         foreach (char ch in dialogueLines[lineIndex])
         {
             dialogueText.text += ch;
-            yield return new WaitForSeconds(TypingTime);
+            yield return new WaitForSecondsRealtime(TypingTime);
         }
     }
 
@@ -97,7 +91,6 @@ public class DialogManager : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            MovimientoJugador.MirarDerecha = true;
             isPlayerInRange = true;
         }
     }
@@ -110,19 +103,12 @@ public class DialogManager : MonoBehaviour
         }
     }
 
-    IEnumerator EndDialog()
+    private void EndDialog()
     {
-        GameObject princesa = GameObject.FindGameObjectWithTag("DialogoPrincesa");
         Active = false;
-        animator.SetBool("PasarSiguiente", true);
         dialoguePanel.SetActive(false);
         Canvas.SetActive(false);
-        yield return new WaitForSeconds(5f);
-
-        MovimientoJugador.MirarDerecha = false;
-        yield return new WaitForSeconds(1f);
-
         MovimientoJugador.movimientoBloqueado = true;
-        princesa.SetActive(false);
+        Time.timeScale = 1f;
     }
 }
