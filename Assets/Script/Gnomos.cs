@@ -8,9 +8,6 @@ public class Gnomos : MonoBehaviour
     private float CantidadGnomos;
 
     [SerializeField]
-    private GnomosRecogidos puntaje;
-
-    [SerializeField]
     private AudioClip up;
     private bool Colisionando = false;
 
@@ -41,7 +38,7 @@ public class Gnomos : MonoBehaviour
         AyudaPlayer.SetActive(false);
         yield return new WaitForSeconds(2f);
         ControladorDeSonidos.Instance.EjecutarSonido(up);
-        puntaje.SumarGnomos(CantidadGnomos);
+        GnomosRecogidos.Instace.SumarGnomos(CantidadGnomos);
         gnomo.SetActive(false);
     }
 

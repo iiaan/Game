@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class DialogManager : MonoBehaviour
 {
+    public static DialogManager Instance;
     private bool Active;
 
     [SerializeField, TextArea(4, 6)]
@@ -32,12 +33,23 @@ public class DialogManager : MonoBehaviour
     [SerializeField]
     public Movement MovimientoJugador;
 
+    public bool AnimacionHecha;
+
     // Update is called once per frame
 
     void Start()
     {
-        animator = GetComponent<Animator>();
-        MovimientoJugador.movimientoBloqueado = false;
+        if (DialogManager.Instance == null)
+        {
+            animator = GetComponent<Animator>();
+            MovimientoJugador.movimientoBloqueado = true;
+            DialogManager.Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Update()
@@ -122,7 +134,8 @@ public class DialogManager : MonoBehaviour
         MovimientoJugador.MirarDerecha = false;
         yield return new WaitForSeconds(1f);
 
-        MovimientoJugador.movimientoBloqueado = true;
+        MovimientoJugador.movimientoBloqueado = false;
+
         princesa.SetActive(false);
     }
 }

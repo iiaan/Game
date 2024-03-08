@@ -40,6 +40,7 @@ public class ChangeLevel : MonoBehaviour
 
     private void CambiarPosicion(Scene scene, LoadSceneMode mode)
     {
+        GameObject Transicion = GameObject.FindGameObjectWithTag("Transicion");
         // Verifica si la escena cargada es la correcta y mueve el personaje a la posición deseada
         if (scene.buildIndex == 1)
         {
@@ -55,10 +56,4 @@ public class ChangeLevel : MonoBehaviour
         // Desregistra el método CambiarPosicion cuando se desactive el objeto
         SceneManager.sceneLoaded -= CambiarPosicion;
     }
-
-    // Start is called before the first frame update
-    void Start() { }
-
-    // Update is called once per frame
-    void Update() { }
 }

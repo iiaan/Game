@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DialogoEstructuras : MonoBehaviour
 {
-    private bool Active;
+    public bool Active;
 
     [SerializeField, TextArea(4, 6)]
     private string[] dialogueLines;
@@ -30,9 +30,16 @@ public class DialogoEstructuras : MonoBehaviour
     [SerializeField]
     public Movement MovimientoJugador;
 
+    public Animator animacion;
+
     // Update is called once per frame
 
 
+
+    void Start()
+    {
+        animacion = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -55,12 +62,13 @@ public class DialogoEstructuras : MonoBehaviour
     public void StartDialog()
     {
         Canvas.SetActive(true);
+        MovimientoJugador.Frente = true;
         dialoguePanel.SetActive(true);
         Active = true;
         lineIndex = 0;
         StartCoroutine(ShowLine());
         Time.timeScale = 0f;
-        MovimientoJugador.movimientoBloqueado = false;
+        MovimientoJugador.movimientoBloqueado = true;
     }
 
     private void NextDialogue()
@@ -72,7 +80,7 @@ public class DialogoEstructuras : MonoBehaviour
         }
         else
         {
-            EndDialog();
+            StartCoroutine(EndDialog());
         }
     }
 
@@ -103,12 +111,15 @@ public class DialogoEstructuras : MonoBehaviour
         }
     }
 
-    private void EndDialog()
+    IEnumerator EndDialog()
     {
         Active = false;
         dialoguePanel.SetActive(false);
         Canvas.SetActive(false);
-        MovimientoJugador.movimientoBloqueado = true;
+
         Time.timeScale = 1f;
+
+        yield return new WaitForSeconds(0.4f);
+        MovimientoJugador.movimientoBloqueado = false;
     }
 }

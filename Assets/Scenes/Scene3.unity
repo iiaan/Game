@@ -7511,6 +7511,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2881375592334480523, guid: 1692ae26887f5174e8ccd327d827ca98,
+        type: 3}
+      propertyPath: DialogoOn
+      value: 
+      objectReference: {fileID: 1571682387}
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8922,12 +8927,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfc6ca2fe2d13374f8a443a5c6226a4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Active: 0
   dialogueLines:
   - Aqui esta tu abuela
   dialoguePanel: {fileID: 160874945}
   dialogueText: {fileID: 160874944}
   Canvas: {fileID: 160874943}
   MovimientoJugador: {fileID: 99406809}
+  animacion: {fileID: 0}
 --- !u!1 &1573959586
 GameObject:
   m_ObjectHideFlags: 0

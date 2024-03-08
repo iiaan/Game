@@ -5,13 +5,23 @@ using UnityEngine;
 
 public class GnomosRecogidos : MonoBehaviour
 {
+    public static GnomosRecogidos Instace;
     private float collected;
 
     private TextMeshProUGUI textMesh;
 
     private void Start()
     {
-        textMesh = GetComponent<TextMeshProUGUI>();
+        if (GnomosRecogidos.Instace == null)
+        {
+            textMesh = GetComponent<TextMeshProUGUI>();
+            GnomosRecogidos.Instace = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Update()

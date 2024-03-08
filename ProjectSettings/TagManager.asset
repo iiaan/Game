@@ -10,6 +10,7 @@ TagManager:
   - NumeroGnomos
   - AyudaPlayer
   - DialogoPrincesa
+  - Transicion
   layers:
   - Default
   - TransparentFX

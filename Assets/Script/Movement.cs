@@ -17,24 +17,40 @@ public class Movement : MonoBehaviour
 
     public bool MirarDerecha = false;
 
+    [SerializeField]
+    public DialogoEstructuras DialogoOn;
+
+    public bool movimientoDialogo;
+    public bool Frente = false;
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         Rigidbody2D = GetComponent<Rigidbody2D>();
-        movimientoBloqueado = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Frente == true)
+        {
+            Horizontal = 0.0f;
+            Vertical = 0.0f;
+            animator.SetBool("Default", Frente);
+            animator.SetBool("Left", false);
+            animator.SetBool("Right", false);
+            animator.SetBool("Up", false);
+            animator.SetBool("Down", false);
+        }
         animator.SetBool("MirarDerecha", MirarDerecha);
-        if (movimientoBloqueado == true)
+
+        if (!movimientoBloqueado)
         {
             Horizontal = Input.GetAxisRaw("Horizontal");
             Vertical = Input.GetAxisRaw("Vertical");
 
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKey(KeyCode.A))
             {
                 animator.SetBool("Left", true);
                 animator.SetBool("Default", false);
@@ -44,7 +60,7 @@ public class Movement : MonoBehaviour
                 animator.SetBool("Left", false);
                 animator.SetBool("Default", true);
             }
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKey(KeyCode.D))
             {
                 animator.SetBool("Right", true);
                 animator.SetBool("Default", false);
@@ -54,7 +70,7 @@ public class Movement : MonoBehaviour
                 animator.SetBool("Right", false);
                 animator.SetBool("Default", true);
             }
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKey(KeyCode.S))
             {
                 animator.SetBool("Down", true);
                 animator.SetBool("Default", false);
@@ -64,7 +80,7 @@ public class Movement : MonoBehaviour
                 animator.SetBool("Down", false);
                 animator.SetBool("Default", true);
             }
-            if (Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKey(KeyCode.W))
             {
                 animator.SetBool("Up", true);
                 animator.SetBool("Default", false);
@@ -75,6 +91,11 @@ public class Movement : MonoBehaviour
                 animator.SetBool("Default", true);
             }
         }
+    }
+
+    public void BloquearMovimiento(bool bloquear)
+    {
+        movimientoBloqueado = bloquear;
     }
 
     private void FixedUpdate()
