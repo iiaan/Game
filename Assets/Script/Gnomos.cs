@@ -38,7 +38,8 @@ public class Gnomos : MonoBehaviour
         AyudaPlayer.SetActive(false);
         yield return new WaitForSeconds(2f);
         ControladorDeSonidos.Instance.EjecutarSonido(up);
-        GnomosRecogidos.Instace.SumarGnomos(CantidadGnomos);
+
+        GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);
         gnomo.SetActive(false);
     }
 

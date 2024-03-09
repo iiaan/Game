@@ -10,22 +10,14 @@ public class ChangeLevel : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         {
-            GameObject personaje = GameObject.FindGameObjectWithTag("Player");
             GameObject interfaz = GameObject.FindGameObjectWithTag("NumeroGnomos");
 
             if (collision.collider.CompareTag("Capsule"))
             {
                 CargarEscena(2);
 
-                DontDestroyOnLoad(personaje);
+                DontDestroyOnLoad(interfaz);
             }
-            else if (collision.collider.CompareTag("Capsule2"))
-            {
-                CargarEscena(1);
-                Destroy(personaje);
-            }
-
-            SceneManager.sceneLoaded += CambiarPosicion;
         }
     }
 
@@ -35,25 +27,5 @@ public class ChangeLevel : MonoBehaviour
         SceneManager.LoadScene(indiceEscena);
 
         // Registra el método CambiarPosicion para que se llame cuando se cargue la escena
-        SceneManager.sceneLoaded += CambiarPosicion;
-    }
-
-    private void CambiarPosicion(Scene scene, LoadSceneMode mode)
-    {
-        GameObject Transicion = GameObject.FindGameObjectWithTag("Transicion");
-        // Verifica si la escena cargada es la correcta y mueve el personaje a la posición deseada
-        if (scene.buildIndex == 1)
-        {
-            // Mueve el personaje a la posición deseada en la escena 1
-            transform.position = new Vector2(-11f, 0);
-        }
-        else if (scene.buildIndex == 0)
-        {
-            // Mueve el personaje a la posición deseada en la escena 0
-            transform.position = new Vector2(9f, -1);
-        }
-
-        // Desregistra el método CambiarPosicion cuando se desactive el objeto
-        SceneManager.sceneLoaded -= CambiarPosicion;
     }
 }

@@ -32,27 +32,27 @@ public class DialogoEstructuras : MonoBehaviour
 
     public Animator animacion;
 
+    public GameObject AyudaPlayer;
+
     // Update is called once per frame
 
 
 
     void Start()
     {
+        AyudaPlayer.SetActive(false);
         animacion = GetComponent<Animator>();
     }
 
     void Update()
     {
-        if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.Space))
+        if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.E))
         {
             if (!Active)
             {
                 StartDialog();
             }
-            else if (
-                Input.GetKeyDown(KeyCode.Space)
-                && dialogueText.text == dialogueLines[lineIndex]
-            )
+            else if (Input.GetKeyDown(KeyCode.E) && dialogueText.text == dialogueLines[lineIndex])
             {
                 NextDialogue();
             }
@@ -69,6 +69,7 @@ public class DialogoEstructuras : MonoBehaviour
         StartCoroutine(ShowLine());
         Time.timeScale = 0f;
         MovimientoJugador.movimientoBloqueado = true;
+        AyudaPlayer.SetActive(false);
     }
 
     private void NextDialogue()
@@ -99,6 +100,7 @@ public class DialogoEstructuras : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            AyudaPlayer.SetActive(true);
             isPlayerInRange = true;
         }
     }
@@ -107,6 +109,7 @@ public class DialogoEstructuras : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            AyudaPlayer.SetActive(false);
             isPlayerInRange = false;
         }
     }
