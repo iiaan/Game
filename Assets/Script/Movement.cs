@@ -23,6 +23,11 @@ public class Movement : MonoBehaviour
     public bool movimientoDialogo;
     public bool Frente = false;
 
+    [SerializeField]
+    private float speed = 3f;
+
+    private Vector2 moveInput;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +54,7 @@ public class Movement : MonoBehaviour
         {
             Horizontal = Input.GetAxisRaw("Horizontal");
             Vertical = Input.GetAxisRaw("Vertical");
+            moveInput = new Vector2(Horizontal, Vertical).normalized;
 
             if (Input.GetKey(KeyCode.A))
             {
@@ -101,5 +107,6 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         Rigidbody2D.velocity = new Vector2(Horizontal, Vertical);
+        Rigidbody2D.MovePosition(Rigidbody2D.position + moveInput * speed * Time.fixedDeltaTime);
     }
 }

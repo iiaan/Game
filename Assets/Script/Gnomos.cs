@@ -23,9 +23,14 @@ public class Gnomos : MonoBehaviour
 
     public bool ejecuntado = false;
 
+    [SerializeField]
+    public GameObject interfaz;
+
     void Start()
     {
         AyudaPlayer.SetActive(false);
+
+        interfaz.SetActive(false);
     }
 
     void Update()
@@ -45,6 +50,7 @@ public class Gnomos : MonoBehaviour
         AyudaPlayer.SetActive(false);
         yield return new WaitForSeconds(2f);
         ControladorDeSonidos.Instance.EjecutarSonido(up);
+        interfaz.SetActive(true);
         if (!ejecuntado)
         {
             GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);

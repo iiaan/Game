@@ -29,6 +29,7 @@ public class ChangeLevel : MonoBehaviour
                 }
                 else if (collision.CompareTag("Capsule2"))
                 {
+                    Debug.Log("DENTRO");
                     CargarEscena(3);
 
                     DontDestroyOnLoad(interfaz);

@@ -62,7 +62,8 @@ public class DialogManager : MonoBehaviour
             }
             else if (
                 Input.GetKeyDown(KeyCode.Space)
-                && dialogueText.text == dialogueLines[lineIndex]
+                || Input.GetKeyDown(KeyCode.E)
+                || Input.GetMouseButtonDown(0) && dialogueText.text == dialogueLines[lineIndex]
             )
             {
                 NextDialogue();

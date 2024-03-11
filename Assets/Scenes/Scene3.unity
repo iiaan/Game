@@ -4983,6 +4983,8 @@ MonoBehaviour:
   animacion: {fileID: 1610272095}
   delay: 2
   activando: 0
+  ActivandoAyuda: 0
+  ejecuntado: 0
 --- !u!1 &823212805
 GameObject:
   m_ObjectHideFlags: 0
@@ -7840,12 +7842,12 @@ PrefabInstance:
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.73
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.626
+      value: 4.45
       objectReference: {fileID: 0}
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
@@ -9372,7 +9374,7 @@ Transform:
   m_GameObject: {fileID: 1576627242}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.547951, y: -0.99807984, z: 0}
+  m_LocalPosition: {x: 12.54595, y: -0.99807984, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

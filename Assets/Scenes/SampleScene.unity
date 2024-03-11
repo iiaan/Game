@@ -6429,7 +6429,7 @@ PrefabInstance:
     - target: {fileID: 8937094417382498712, guid: fd4ec4b0c5ee6e34bb81244515a9b532,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7024,7 +7024,7 @@ PrefabInstance:
     - target: {fileID: 8377639599894146317, guid: 6e04914da1eca954eaeae5c15c83875b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7506,12 +7506,12 @@ PrefabInstance:
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.46
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.89
+      value: -2.27
       objectReference: {fileID: 0}
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
@@ -7596,6 +7596,8 @@ MonoBehaviour:
   animacion: {fileID: 375087846}
   delay: 2
   activando: 0
+  ActivandoAyuda: 0
+  ejecuntado: 0
 --- !u!1001 &8403288931209303166
 PrefabInstance:
   m_ObjectHideFlags: 0
