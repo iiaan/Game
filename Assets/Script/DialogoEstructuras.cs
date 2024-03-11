@@ -30,8 +30,6 @@ public class DialogoEstructuras : MonoBehaviour
     [SerializeField]
     public Movement MovimientoJugador;
 
-    public Animator animacion;
-
     public GameObject AyudaPlayer;
 
     // Update is called once per frame
@@ -41,7 +39,6 @@ public class DialogoEstructuras : MonoBehaviour
     void Start()
     {
         AyudaPlayer.SetActive(false);
-        animacion = GetComponent<Animator>();
     }
 
     void Update()

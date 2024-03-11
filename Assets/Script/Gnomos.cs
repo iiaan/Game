@@ -18,6 +18,11 @@ public class Gnomos : MonoBehaviour
 
     public float delay = 2.0f;
 
+    public bool activando = false;
+    public bool ActivandoAyuda = false;
+
+    public bool ejecuntado = false;
+
     void Start()
     {
         AyudaPlayer.SetActive(false);
@@ -25,8 +30,10 @@ public class Gnomos : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && Colisionando == true)
+        if (Input.GetKeyDown(KeyCode.E) && Colisionando == true && !activando && !ejecuntado)
         {
+            activando = true;
+            ActivandoAyuda = true;
             StartCoroutine(ActivarConDelay());
         }
     }
@@ -38,14 +45,19 @@ public class Gnomos : MonoBehaviour
         AyudaPlayer.SetActive(false);
         yield return new WaitForSeconds(2f);
         ControladorDeSonidos.Instance.EjecutarSonido(up);
-
-        GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);
-        gnomo.SetActive(false);
+        if (!ejecuntado)
+        {
+            GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);
+            gnomo.SetActive(false);
+            activando = false;
+            ejecuntado = true;
+            ActivandoAyuda = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("gnomos"))
+        if (collision.CompareTag("gnomos") && !ActivandoAyuda)
         {
             AyudaPlayer.SetActive(true);
             Colisionando = true;
@@ -54,7 +66,7 @@ public class Gnomos : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("gnomos"))
+        if (collision.CompareTag("gnomos") && !ActivandoAyuda)
         {
             AyudaPlayer.SetActive(false);
             Colisionando = false;
