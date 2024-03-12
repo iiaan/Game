@@ -26,6 +26,8 @@ public class Gnomos : MonoBehaviour
     [SerializeField]
     public GameObject interfaz;
 
+    public float segundos = 2;
+
     void Start()
     {
         AyudaPlayer.SetActive(false);
@@ -48,16 +50,31 @@ public class Gnomos : MonoBehaviour
         GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
         animacion.ActivarAnimacion(true);
         AyudaPlayer.SetActive(false);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(segundos);
         ControladorDeSonidos.Instance.EjecutarSonido(up);
-        interfaz.SetActive(true);
-        if (!ejecuntado)
+
+        if (interfaz.activeSelf)
         {
-            GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);
-            gnomo.SetActive(false);
-            activando = false;
-            ejecuntado = true;
-            ActivandoAyuda = false;
+            if (!ejecuntado)
+            {
+                GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);
+                gnomo.SetActive(false);
+                activando = false;
+                ejecuntado = true;
+                ActivandoAyuda = false;
+            }
+        }
+        else
+        {
+            interfaz.SetActive(true);
+            if (!ejecuntado)
+            {
+                GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);
+                gnomo.SetActive(false);
+                activando = false;
+                ejecuntado = true;
+                ActivandoAyuda = false;
+            }
         }
     }
 

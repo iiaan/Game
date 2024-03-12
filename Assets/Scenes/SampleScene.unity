@@ -4601,10 +4601,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4550356008219083307, guid: 734081e022b8cd5449d42daeaeb92681,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5677263299274494865, guid: 734081e022b8cd5449d42daeaeb92681,
         type: 3}
       propertyPath: m_Name
       value: RecogidosGnomos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6081565773573464883, guid: 734081e022b8cd5449d42daeaeb92681,
+        type: 3}
+      propertyPath: m_text
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6081565773573464883, guid: 734081e022b8cd5449d42daeaeb92681,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 6819297018270073276, guid: 734081e022b8cd5449d42daeaeb92681,
         type: 3}
@@ -6429,7 +6444,7 @@ PrefabInstance:
     - target: {fileID: 8937094417382498712, guid: fd4ec4b0c5ee6e34bb81244515a9b532,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6508,6 +6523,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbeab85cbe3b90b41a444794aab794ef, type: 3}
+--- !u!1 &2006878292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5677263299274494865, guid: 734081e022b8cd5449d42daeaeb92681,
+    type: 3}
+  m_PrefabInstance: {fileID: 1199565794}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2040528505
 GameObject:
   m_ObjectHideFlags: 0
@@ -7024,7 +7045,7 @@ PrefabInstance:
     - target: {fileID: 8377639599894146317, guid: 6e04914da1eca954eaeae5c15c83875b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7503,6 +7524,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2881375592334480523, guid: 1692ae26887f5174e8ccd327d827ca98,
+        type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2881375592334480523, guid: 1692ae26887f5174e8ccd327d827ca98,
+        type: 3}
+      propertyPath: velocidadExtra
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2881375592334480523, guid: 1692ae26887f5174e8ccd327d827ca98,
+        type: 3}
+      propertyPath: velovidadDeMovimientoBase
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7553,6 +7589,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7377799844479915642, guid: 1692ae26887f5174e8ccd327d827ca98,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7842603686038963942, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: AyudaPasarNivel
@@ -7598,6 +7639,7 @@ MonoBehaviour:
   activando: 0
   ActivandoAyuda: 0
   ejecuntado: 0
+  interfaz: {fileID: 2006878292}
 --- !u!1001 &8403288931209303166
 PrefabInstance:
   m_ObjectHideFlags: 0
