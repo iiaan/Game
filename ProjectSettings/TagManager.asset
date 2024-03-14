@@ -12,6 +12,7 @@ TagManager:
   - DialogoPrincesa
   - Transicion
   - Capsule3
+  - Capsule4
   layers:
   - Default
   - TransparentFX
@@ -19,10 +20,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Colision2
   - Colision
   - Player
-  - 
+  - colision3
   - 
   - 
   - 

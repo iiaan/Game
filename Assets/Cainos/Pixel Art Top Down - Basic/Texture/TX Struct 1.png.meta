@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dda6bbdb704d84847b38f9eced72bf59
+guid: 1a5d970a79036ee4c8fb0ec8eba5f426
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -240,12 +240,12 @@ TextureImporter:
       name: TX Stairs M M
       rect:
         serializedVersion: 2
-        x: 32
+        x: 40
         y: 384
-        width: 64
+        width: 48
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: TX Stairs L M
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 384
-        width: 65
+        width: 49
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: TX Struct Gate T2 T
       rect:
         serializedVersion: 2
-        x: 412
-        y: 500
+        x: 408
+        y: 466
         width: 80
-        height: 3
-      alignment: 9
-      pivot: {x: 0.52364045, y: 4.3724465}
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -345,12 +345,12 @@ TextureImporter:
       name: TX Struct Gate T2 B
       rect:
         serializedVersion: 2
-        x: 408
+        x: 416
         y: 421
-        width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -387,12 +387,12 @@ TextureImporter:
       name: TX Stairs R M
       rect:
         serializedVersion: 2
-        x: 224
+        x: 232
         y: 384
-        width: 65
+        width: 49
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -432,9 +432,9 @@ TextureImporter:
         x: 416
         y: 320
         width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,9 +451,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 416
-        y: 392
+        y: 365
         width: 64
-        height: 1
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,12 +471,12 @@ TextureImporter:
       name: TX Stairs Broken M M
       rect:
         serializedVersion: 2
-        x: 32
+        x: 40
         y: 256
-        width: 64
+        width: 48
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -534,12 +534,12 @@ TextureImporter:
       name: TX Stairs Broken L M
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 256
-        width: 65
+        width: 49
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -597,12 +597,12 @@ TextureImporter:
       name: TX Stairs Broken R M
       rect:
         serializedVersion: 2
-        x: 224
+        x: 232
         y: 256
-        width: 65
+        width: 49
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

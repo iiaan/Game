@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1524820271729070504}
   - component: {fileID: 7139528953129867055}
   m_Layer: 20
-  m_Name: char_a_p1_0bas_humn_v01_0
+  m_Name: PersonajePrincipal
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,7 +205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696f0174aa5978846b57eaf30fab57de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicion: -8
+  AyudaPasarNivel: {fileID: 8576288861411999253, guid: fb93bd7533fb4dd4fbeb4a829d34b477,
+    type: 3}
 --- !u!114 &7139528953129867055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +221,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CantidadGnomos: 1
   up: {fileID: 8300000, guid: 147cd5765a1492141af0221ca14d3720, type: 3}
-  AyudaPlayer: {fileID: 0}
+  AyudaPlayer: {fileID: 8576288861411999253, guid: fb93bd7533fb4dd4fbeb4a829d34b477,
+    type: 3}
   animacion: {fileID: 0}
   delay: 2
+  activando: 0
+  ActivandoAyuda: 0
+  ejecuntado: 0
+  interfaz: {fileID: 5677263299274494865, guid: 734081e022b8cd5449d42daeaeb92681,
+    type: 3}
+  segundos: 2
