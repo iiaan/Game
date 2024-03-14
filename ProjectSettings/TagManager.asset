@@ -13,6 +13,7 @@ TagManager:
   - Transicion
   - Capsule3
   - Capsule4
+  - Capsule5
   layers:
   - Default
   - TransparentFX
