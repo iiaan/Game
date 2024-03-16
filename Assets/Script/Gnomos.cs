@@ -16,8 +16,6 @@ public class Gnomos : MonoBehaviour
     [SerializeField]
     private AnimacionGnomo animacion;
 
-    public float delay = 2.0f;
-
     public bool activando = false;
     public bool ActivandoAyuda = false;
 
@@ -26,7 +24,7 @@ public class Gnomos : MonoBehaviour
     [SerializeField]
     public GameObject interfaz;
 
-    public float segundos = 2;
+    public float segundos = 2f;
 
     void Start()
     {

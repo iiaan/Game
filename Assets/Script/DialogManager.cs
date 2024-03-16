@@ -6,7 +6,7 @@ using UnityEngine;
 public class DialogManager : MonoBehaviour
 {
     public static DialogManager Instance;
-    private bool Active;
+    private bool Active = false;
 
     [SerializeField, TextArea(4, 6)]
     private string[] dialogueLines;
@@ -28,17 +28,28 @@ public class DialogManager : MonoBehaviour
 
     private Animator animator;
 
-    private float TypingTime = 0.05f;
+    [SerializeField]
+    private float TypingTime;
 
     [SerializeField]
     public Movement MovimientoJugador;
 
     public bool AnimacionHecha;
 
+    private AudioSource audioSource;
+
+    [SerializeField]
+    private AudioClip voice;
+
+    [SerializeField]
+    private int AudioTyping;
+
     // Update is called once per frame
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = voice;
         if (DialogManager.Instance == null)
         {
             animator = GetComponent<Animator>();
@@ -75,11 +86,10 @@ public class DialogManager : MonoBehaviour
     {
         dialoguePanel.SetActive(true);
 
-        Active = true;
-
         lineIndex = 0;
 
         StartCoroutine(ShowLine());
+        Active = true;
     }
 
     private void NextDialogue()
@@ -98,11 +108,20 @@ public class DialogManager : MonoBehaviour
     private IEnumerator ShowLine()
     {
         dialogueText.text = string.Empty;
+        int charIndex = 0;
 
         foreach (char ch in dialogueLines[lineIndex])
         {
             dialogueText.text += ch;
-            yield return new WaitForSeconds(TypingTime);
+
+            if (charIndex % AudioTyping == 0)
+            {
+                audioSource.PlayOneShot(voice);
+            }
+
+            charIndex++;
+
+            yield return new WaitForSecondsRealtime(TypingTime);
         }
     }
 
@@ -130,6 +149,8 @@ public class DialogManager : MonoBehaviour
         animator.SetBool("PasarSiguiente", true);
         dialoguePanel.SetActive(false);
         Canvas.SetActive(false);
+        audioSource.Stop();
+
         yield return new WaitForSeconds(5f);
 
         MovimientoJugador.MirarDerecha = false;

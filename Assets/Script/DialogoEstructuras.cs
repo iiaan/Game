@@ -49,7 +49,11 @@ public class DialogoEstructuras : MonoBehaviour
             {
                 StartDialog();
             }
-            else if (Input.GetKeyDown(KeyCode.E) && dialogueText.text == dialogueLines[lineIndex])
+            else if (
+                Input.GetKeyDown(KeyCode.E)
+                || Input.GetMouseButtonDown(0)
+                || Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogueLines[lineIndex]
+            )
             {
                 NextDialogue();
             }
