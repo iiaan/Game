@@ -2170,7 +2170,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 2266664342714490228}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1020170983}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -3788,6 +3788,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 78104872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1020170983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8861780186768417667, guid: a790146298bd3fc469383726c2e44efd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2266664342714490228}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1039646893
 GameObject:
   m_ObjectHideFlags: 0
@@ -7086,6 +7092,11 @@ PrefabInstance:
       objectReference: {fileID: 331576035}
     - target: {fileID: 542027405647960106, guid: 6e04914da1eca954eaeae5c15c83875b,
         type: 3}
+      propertyPath: princesa
+      value: 
+      objectReference: {fileID: 1020170983}
+    - target: {fileID: 542027405647960106, guid: 6e04914da1eca954eaeae5c15c83875b,
+        type: 3}
       propertyPath: TypingTime
       value: 0.04
       objectReference: {fileID: 0}
@@ -7112,12 +7123,17 @@ PrefabInstance:
     - target: {fileID: 542027405647960106, guid: 6e04914da1eca954eaeae5c15c83875b,
         type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 542027405647960106, guid: 6e04914da1eca954eaeae5c15c83875b,
         type: 3}
       propertyPath: dialogueLines.Array.data[0]
       value: Me gusta las patatasaaaaaaaaaaaaaaaaa
+      objectReference: {fileID: 0}
+    - target: {fileID: 542027405647960106, guid: 6e04914da1eca954eaeae5c15c83875b,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: asdqawdqwdqwdqwdqwdqw asdasd
       objectReference: {fileID: 0}
     - target: {fileID: 542027405647960106, guid: 6e04914da1eca954eaeae5c15c83875b,
         type: 3}

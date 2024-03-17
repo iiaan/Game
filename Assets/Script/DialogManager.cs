@@ -44,6 +44,11 @@ public class DialogManager : MonoBehaviour
     [SerializeField]
     private int AudioTyping;
 
+    private bool dialogueStarted = false;
+
+    [SerializeField]
+    private GameObject princesa;
+
     // Update is called once per frame
 
     void Start()
@@ -65,19 +70,23 @@ public class DialogManager : MonoBehaviour
 
     void Update()
     {
-        if (isPlayerInRange == true)
+        if (!Active && isPlayerInRange == true)
         {
-            if (!Active)
-            {
-                StartDialog();
-            }
-            else if (
-                Input.GetKeyDown(KeyCode.Space)
-                || Input.GetKeyDown(KeyCode.E)
-                || Input.GetMouseButtonDown(0) && dialogueText.text == dialogueLines[lineIndex]
-            )
+            StartDialog();
+        }
+        else if (
+            Input.GetKeyDown(KeyCode.Space)
+            || Input.GetKeyDown(KeyCode.E)
+            || Input.GetMouseButtonDown(0) && dialogueText.text == dialogueLines[lineIndex]
+        )
+        {
+            if (lineIndex < dialogueLines.Length - 1)
             {
                 NextDialogue();
+            }
+            else
+            {
+                StartCoroutine(EndDialog());
             }
         }
     }
@@ -86,13 +95,17 @@ public class DialogManager : MonoBehaviour
     {
         dialoguePanel.SetActive(true);
 
-        lineIndex = 0;
+        if (!dialogueStarted)
+        {
+            lineIndex = 0;
+            StartCoroutine(ShowLine());
+            dialogueStarted = true;
+        }
 
-        StartCoroutine(ShowLine());
         Active = true;
     }
 
-    private void NextDialogue()
+    public void NextDialogue()
     {
         lineIndex++;
         if (lineIndex < dialogueLines.Length)
@@ -144,14 +157,13 @@ public class DialogManager : MonoBehaviour
 
     IEnumerator EndDialog()
     {
-        GameObject princesa = GameObject.FindGameObjectWithTag("DialogoPrincesa");
         Active = false;
         animator.SetBool("PasarSiguiente", true);
         dialoguePanel.SetActive(false);
         Canvas.SetActive(false);
         audioSource.Stop();
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSecondsRealtime(4f);
 
         MovimientoJugador.MirarDerecha = false;
         yield return new WaitForSeconds(1f);
