@@ -32,6 +32,11 @@ public class Movement : MonoBehaviour
 
     private bool estaCorriendo = false;
 
+    [SerializeField]
+    private ParticleSystem particulas;
+
+    private bool estaQuieto;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,11 +66,29 @@ public class Movement : MonoBehaviour
             moveInput = new Vector2(Horizontal, Vertical).normalized;
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
-                estaCorriendo = true;
+                if (!estaQuieto)
+                {
+                    estaCorriendo = true;
+                    ReproducirParticulas();
+                }
             }
             if (Input.GetKeyUp(KeyCode.LeftShift))
             {
+                DetenerParticulas();
                 estaCorriendo = false;
+            }
+
+            if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+            {
+                estaQuieto = false;
+            }
+            else
+            {
+                estaQuieto = true;
+                if (!estaCorriendo)
+                {
+                    DetenerParticulas();
+                }
             }
 
             if (Input.GetKey(KeyCode.A))
@@ -194,6 +217,18 @@ public class Movement : MonoBehaviour
     public void BloquearMovimiento(bool bloquear)
     {
         movimientoBloqueado = bloquear;
+    }
+
+    public void ReproducirParticulas()
+    {
+        if (!particulas.isPlaying)
+            particulas.Play();
+    }
+
+    public void DetenerParticulas()
+    {
+        if (particulas.isPlaying)
+            particulas.Stop();
     }
 
     private void FixedUpdate()
