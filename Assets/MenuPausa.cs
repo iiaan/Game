@@ -65,6 +65,7 @@ public class MenuPausa : MonoBehaviour
     public void Volumen()
     {
         Debug.Log("aqui");
+        Time.timeScale = 0f;
         DentroDeVolumen = false;
         juegoPausado = false;
         menuPausaVolumen.SetActive(true);

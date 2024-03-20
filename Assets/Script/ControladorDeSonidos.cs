@@ -8,6 +8,24 @@ public class ControladorDeSonidos : MonoBehaviour
 
     private AudioSource audioSource;
 
+    public void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
+    }
+
+    public void Update()
+    {
+        if (Time.timeScale == 0)
+        {
+            audioSource.UnPause();
+        }
+        else
+        {
+            audioSource.UnPause();
+        }
+    }
+
     private void Awake()
     {
         if (Instance == null)
