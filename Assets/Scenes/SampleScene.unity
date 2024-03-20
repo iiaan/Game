@@ -1372,6 +1372,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gnomo
       objectReference: {fileID: 0}
+    - target: {fileID: 4177826500879464042, guid: db57222ec4d296345bbab6b0b5c17edd,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177826500879464042, guid: db57222ec4d296345bbab6b0b5c17edd,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -44025399
+      objectReference: {fileID: 0}
     - target: {fileID: 6204560114051942484, guid: db57222ec4d296345bbab6b0b5c17edd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1708,7 +1718,6 @@ GameObject:
   m_Component:
   - component: {fileID: 323060122}
   - component: {fileID: 323060121}
-  - component: {fileID: 323060120}
   m_Layer: 0
   m_Name: TX Bush T1 (1)
   m_TagString: Untagged
@@ -1716,41 +1725,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!70 &323060120
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323060119}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.031422615, y: 0.10212165}
-  m_Size: {x: 0.49896717, y: 0.49896717}
-  m_Direction: 0
 --- !u!212 &323060121
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3208,7 +3182,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -105541197
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300084, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3913,8 +3887,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -44025399
-  m_SortingLayer: 2
+  m_SortingLayerID: -105541197
+  m_SortingLayer: 3
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300082, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5005,6 +4979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1218557154}
   - component: {fileID: 1218557153}
+  - component: {fileID: 1218557155}
   m_Layer: 0
   m_Name: TX Props Well (1)
   m_TagString: Untagged
@@ -5050,9 +5025,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -44025399
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: -105541197
+  m_SortingLayer: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300164, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5079,6 +5054,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 78104872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1218557155
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218557152}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.060467526, y: 0.67259985}
+  m_Size: {x: 1.7473807, y: 1.2822539}
+  m_Direction: 1
 --- !u!1 &1251735529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5770,6 +5780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1603273336}
   - component: {fileID: 1603273335}
+  - component: {fileID: 1603273337}
   m_Layer: 0
   m_Name: arriba (1)
   m_TagString: Untagged
@@ -5817,7 +5828,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -105541197
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300062, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5844,6 +5855,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 78104872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1603273337
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603273334}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00000047683716, y: 0.08487005}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.84375, y: 0.46875}
+    newSize: {x: 0.84375, y: 0.46875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.79098415, y: 0.1697401}
+  m_EdgeRadius: 0
 --- !u!4 &1635881554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8150476868300563375, guid: 2e2ac125e54a1e44780363d638b1df34,
@@ -6118,7 +6174,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1791522477}
   - component: {fileID: 1791522476}
-  - component: {fileID: 1791522478}
   m_Layer: 0
   m_Name: TX Bush T1
   m_TagString: Untagged
@@ -6164,8 +6219,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1869315837
-  m_SortingLayer: 1
+  m_SortingLayerID: -105541197
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300136, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6193,41 +6248,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 78104872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1791522478
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791522475}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.031422615, y: 0.10212165}
-  m_Size: {x: 0.49896717, y: 0.49896717}
-  m_Direction: 0
 --- !u!1 &1806949988
 GameObject:
   m_ObjectHideFlags: 0
@@ -8017,6 +8037,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 704042366514157616, guid: 1692ae26887f5174e8ccd327d827ca98,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.14428173
+      objectReference: {fileID: 0}
+    - target: {fileID: 704042366514157616, guid: 1692ae26887f5174e8ccd327d827ca98,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.07285916
+      objectReference: {fileID: 0}
     - target: {fileID: 2881375592334480523, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: speed
@@ -8040,12 +8070,12 @@ PrefabInstance:
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.66
+      value: 2.54
       objectReference: {fileID: 0}
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.27
+      value: -2.24
       objectReference: {fileID: 0}
     - target: {fileID: 7061295117011360558, guid: 1692ae26887f5174e8ccd327d827ca98,
         type: 3}
