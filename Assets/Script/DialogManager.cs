@@ -49,6 +49,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField]
     private GameObject princesa;
 
+    [SerializeField]
     // Update is called once per frame
 
     void Start()
