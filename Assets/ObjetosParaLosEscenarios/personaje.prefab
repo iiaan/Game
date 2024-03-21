@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -141,6 +141,10 @@ MonoBehaviour:
   Default: 0
   movimientoBloqueado: 0
   MirarDerecha: 0
+  DialogoOn: {fileID: 0}
+  movimientoDialogo: 0
+  Frente: 0
+  particulas: {fileID: 0}
 --- !u!50 &7377799844479915642
 Rigidbody2D:
   serializedVersion: 4
@@ -201,4 +205,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696f0174aa5978846b57eaf30fab57de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicion: -8
+  AyudaPasarNivel: {fileID: 0}

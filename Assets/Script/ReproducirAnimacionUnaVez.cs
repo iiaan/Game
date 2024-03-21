@@ -8,12 +8,15 @@ public class ReproducirAnimacionUnaVez : MonoBehaviour
     private Animator animator;
     private float Segundos = 3.9f;
 
+    [SerializeField]
+    private Movement movimiento;
+
     void Start()
     {
         if (ReproducirAnimacionUnaVez.Instance == null)
         {
             animator = GetComponent<Animator>();
-
+            movimiento.movimientoBloqueado = true;
             StartCoroutine(ReproducirYDestruir());
             ReproducirAnimacionUnaVez.Instance = this;
             DontDestroyOnLoad(this.gameObject);
@@ -30,7 +33,7 @@ public class ReproducirAnimacionUnaVez : MonoBehaviour
         animator.Play("TransicionEscena");
 
         yield return new WaitForSeconds(Segundos);
-
+        movimiento.movimientoBloqueado = false;
         gameObject.SetActive(false);
     }
 }

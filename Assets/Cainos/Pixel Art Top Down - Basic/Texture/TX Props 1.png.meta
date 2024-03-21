@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 29c9cded5e558164aaf8c9bf08aa1510
+guid: 0102ed56a1806524793faa3f0f14bada
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -459,10 +459,10 @@ TextureImporter:
       name: TX Props Chest Opened
       rect:
         serializedVersion: 2
-        x: 96
-        y: 386
-        width: 32
-        height: 49
+        x: 101
+        y: 390
+        width: 22
+        height: 12
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
