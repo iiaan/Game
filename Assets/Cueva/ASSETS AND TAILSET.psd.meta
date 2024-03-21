@@ -1,0 +1,5222 @@
+fileFormatVersion: 2
+guid: 3886643d3173f714aa1caa932378688b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_0
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 1812
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76cff44619d70f43a77ea80bc4e3f9d
+      internalID: 1572008512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1666
+        width: 229
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bf476d7204e07499c833312857ee4c
+      internalID: -91082696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1761
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2390f4eb2b42d64197ec5c77ccc1742
+      internalID: 510507810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1730
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbd120e4e56994438b6d6e3a9604441
+      internalID: -1303467544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1730
+        width: 74
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bef6b09d0953264eb6d674572c6a488
+      internalID: -1409273976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1730
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d9df943fd5b474395690dcf4ff762d
+      internalID: 149019748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_6
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1730
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d6d42feab54ae488bd3194e29830a2
+      internalID: -1234865156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1730
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9458c70a834da514098681003d72587d
+      internalID: -1915394250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_8
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1746
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0517f4e829959da4f9574208c55be7d1
+      internalID: -1303443811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_9
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1746
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3680ee24b90feed498442fe65139ef60
+      internalID: -1808364492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_10
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1746
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00fb645e919695458e33b653221100d
+      internalID: 1329836245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_11
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1708
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63fe2274d9efd6428da3225fa238cb0
+      internalID: -1021541670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_12
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1708
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8557f9f962d29048852deac0d87a537
+      internalID: 116641387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_13
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1708
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0df86bf3853dd341979502783b3f56d
+      internalID: -423145644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1708
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703a939363217c14db5bacb2e3632e1c
+      internalID: -1939414630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_15
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1692
+        width: 114
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccbbf7aa7714594180a450a13c0bf9b
+      internalID: -754088333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_16
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1692
+        width: 104
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbbbbd8a20ca1945a234e15dd9c55c8
+      internalID: -1048660140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_17
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1690
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2146a87dcbffa8a4cb2d8999ac1fbd07
+      internalID: 719849648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_18
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1690
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6234f5c81f39a3749ac604e3b580a281
+      internalID: -505842135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_19
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 1688
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f979bf1fca50844aa2e94a5fabd40d0
+      internalID: 731563783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_20
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1688
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fd4ce5bc221cf41980f3645f289f8a
+      internalID: -1032697330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1722
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9c069004f50e44da27aaa56c0695b6
+      internalID: 903188660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_22
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1699
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba677c189f77943498486a777258a61b
+      internalID: -27657012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1699
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613d03bd00d5c9c48876370bfe920474
+      internalID: 1951792985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_24
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1699
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0427d6e632851943b8d88012a69c4d4
+      internalID: 1851965560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_25
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1690
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce7a99676cbe6a4d9b52222dfacbb8b
+      internalID: 1180590212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_26
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1694
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc3650679671ae4394138d6fbfcf775
+      internalID: -632959791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_27
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1694
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dea9069a74c3046a2dfa8698b3005b
+      internalID: 1837852120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_28
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1696
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5f29a7f0f213d4c9f9416094513b34
+      internalID: 1166125169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_29
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1696
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d9d7489a155184198673e524323fe9
+      internalID: 266589072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_30
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1690
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87040599635116145bc582d72e04dcd0
+      internalID: 422764261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_31
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1694
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f59fdfdd9979f24193d7f46ff1e46b9
+      internalID: -122973622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_32
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1694
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d332e64c2d8cd148923511be22e8cfe
+      internalID: -1998095819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_33
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1694
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd0df15116e194f9d3bf8f36393468
+      internalID: -1917304919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_34
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1685
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adfa7d03f065ba46824946a0bf79372
+      internalID: -1379736566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_35
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 1685
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccb08d4ba77ef54085ea26fff1167ed
+      internalID: -1361913656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_36
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1685
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7189d36850b1a1d4dbd6a16f4d2a0109
+      internalID: 1913284411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_37
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 1626
+        width: 175
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea556318b789bd2418c0e2cd1140e683
+      internalID: -2101620679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_38
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1626
+        width: 177
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee9d804e7e475d4893477629551c014
+      internalID: 181210652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_39
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1666
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdc6ed7ce3809b49933a5369fa4e43d
+      internalID: 1330700932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_40
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1666
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517606ece370f9043a088c8c58c6b2a8
+      internalID: -1046330299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_41
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1666
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3126f047722b8458090f4f30a53cb3
+      internalID: -204972374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_42
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1666
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e5d36754691104f91e714de976e05e
+      internalID: -816264114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_43
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1692
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81ee21fbcb4e904a8f8cf348a691cdb
+      internalID: 1804863135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_44
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1443
+        width: 628
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be02469795dbe5d4d86b52ac98225dae
+      internalID: -1556258914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_45
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1599
+        width: 81
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af5633d12e207b458d665b3e8cc9f87
+      internalID: -703087197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_46
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1600
+        width: 82
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c5e5b8c16c428418cd7d8a8d30ccf5
+      internalID: 1433422826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_47
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1600
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41f688c197db934b8e366142260eb64
+      internalID: 796609838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_48
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1600
+        width: 76
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042ef2a7009c44b4aa72171a2d6b6bd4
+      internalID: -168354768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_49
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1600
+        width: 132
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5520e87fe46c3e7499729a623875c185
+      internalID: 173985281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_50
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1600
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bbd41e8b0824f489d283e4a92be148
+      internalID: -126343680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_51
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1606
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed568bba8fb38c64e865dcc321a6e4e5
+      internalID: -1756760550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_52
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1606
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8954cb64570193845a34d32b1baa9667
+      internalID: -273441427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_53
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1604
+        width: 224
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92517fc2db1aa2248b8c124e16d7d36a
+      internalID: 858970769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_54
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1599
+        width: 113
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70bea7493d27674a9ac6afc560288cd
+      internalID: 2110280349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_55
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1599
+        width: 115
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9789f9092e244a644816d3c284eae3be
+      internalID: 1288754907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_56
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1632
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2a8226c77e9c249b710979876992b7
+      internalID: 231498112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_57
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 1625
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5f4529784da674691ef876a7660995
+      internalID: -832309332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_58
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1619
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b8974c52a24f143b68a74999104415
+      internalID: -502905250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_59
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1621
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9433f9df7f59804db23e7b04b1f0cc4
+      internalID: 1858072163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_60
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1625
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc00a410b9fab848906d5732c403ac9
+      internalID: -1993365933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_61
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 1621
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3e99318f9c56f479fb7fec09f60557
+      internalID: -1857785268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_62
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 1621
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e4b81b07072314b833d36aacc179a9
+      internalID: 1079687379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_63
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 1621
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418fc6a6e120a1e47a47481bc5ef1ed0
+      internalID: -1568261459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_64
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 1580
+        width: 192
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4b9eab706d59e42a96091cc9d0ea37
+      internalID: -1469617797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_65
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 1626
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0093311f26cb3e44f8dc776b0592affb
+      internalID: 1645017889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_66
+      rect:
+        serializedVersion: 2
+        x: 3062
+        y: 1626
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946eb98620d66c846a38f4f18472d77b
+      internalID: -1747288895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_67
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1626
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c26ef9c27842f4a8671b057baf07ff
+      internalID: 321962358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_68
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 1626
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b858f6e7dfed02f4d9c26430a862c630
+      internalID: 1043191393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_69
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 1626
+        width: 56
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5606e2ea4322f44ba0f8d78e5966a82
+      internalID: 1352456681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_70
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 1626
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8936b3b6398554b4680321707411905f
+      internalID: -167996718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_71
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1600
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65723c31f65d7c428956bcb7d35863d
+      internalID: -1623137160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_72
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1600
+        width: 80
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597be56f7c1bf3441afed30aa2db8e0a
+      internalID: 498860249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_73
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 1564
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f39603f3cbb0ee4a8628b3b6e29044f
+      internalID: 1706598549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_74
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1564
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ed10195156d6849988411be230b94e
+      internalID: 291124322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_75
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 1564
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65af321176d0b3b4e97f56f08999cc2f
+      internalID: -385546329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_76
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1564
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e05020fc0ebe7041b4809f13b55b885
+      internalID: -825754367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_77
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 1590
+        width: 72
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a4138d0a42faa4e8e2f375a6450a67
+      internalID: 2125818173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_78
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1463
+        width: 167
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000d995d3cf814148be5b5a336fecc3e
+      internalID: -2121694288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_79
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1460
+        width: 162
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c571d5f9c0dc74398f4b650712d5a5
+      internalID: -1679566090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_80
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1460
+        width: 165
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b9f2c5c1cda6b4a9a512ad31738d6b
+      internalID: -1346650136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_81
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 1462
+        width: 176
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cf73cb6ce44a843a479f00875001d4
+      internalID: 319811918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_82
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1462
+        width: 177
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79faf2cf57e6f14479e5219ad096752d
+      internalID: -1104731504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_83
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 1450
+        width: 213
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c6fd08fcb9c0e4483edd53ede451bb
+      internalID: -1535887094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_84
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 1500
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe275601b16b734dae6dd2d5dac27f3
+      internalID: -950079542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_85
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1500
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0809024dacec61479347bc97adedb70
+      internalID: -1607750715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_86
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 1500
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de674104cf835ac49b40a19ca2727990
+      internalID: 1696003842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_87
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1500
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd4ddcdb9a70f144b10746af8f59cc0
+      internalID: -663101969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_88
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 1555
+        width: 98
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9922e54813e3772418e8da98e76f3189
+      internalID: -1827115809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_89
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1460
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c85df1db9ab2f742bff2e97f4e53504
+      internalID: -914530491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_90
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1460
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef77903f947dffe46ae81f365aa8d44b
+      internalID: -138788060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_91
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1503
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193756bc4ddf52b42a50b042370fe63a
+      internalID: -1507673960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_92
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1508
+        width: 123
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25e48304a9697a40b76c91bde6d897e
+      internalID: -1300735266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_93
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1359
+        width: 384
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44d89ae78f2b2440b8db3eefe08af15
+      internalID: -1212989370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_94
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 1521
+        width: 84
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1843fed82269e944e9b78cb288ecfcb0
+      internalID: 1985871953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_95
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1458
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bb02e12b38a714aa85967abcf3d812
+      internalID: 1741770315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_96
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1460
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e287f345b23a18408a123d1cc273168
+      internalID: -985670572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_97
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1463
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1016d5103bd6a46a379fa5531322fb
+      internalID: 82360249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_98
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1463
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4149ac2326162647a18f44c2b9295e2
+      internalID: 1503263977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_99
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1463
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d245b1df3f4b22c4e89d1325bde24853
+      internalID: 748896663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_100
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 1469
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6635f2bb5db4c29418c1f02385c44b7b
+      internalID: 1950064126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_101
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 1465
+        width: 98
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bb62b45cd54044b8cbded28a5f1b18
+      internalID: -1165200985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_102
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 1486
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f570a55b6f8aee4680a65c9be4a0a74
+      internalID: 249198511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_103
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1462
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c9b3d55ef95b1429dc56579e801a19
+      internalID: 1202662328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_104
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1460
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5490a02cc9995d4bbc62a60f808cd6d
+      internalID: 1954083818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_105
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1458
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3e1226d15de544e8943ff532a256d6
+      internalID: 2008590225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_106
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 1404
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab459c1958d4b641b3eefc1302c8fd2
+      internalID: 1515522432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_107
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 1399
+        width: 135
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efafa07e6be9e3442bef1b01463e5611
+      internalID: 2007245150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_108
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1430
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9274c2e55fbe0f040ad5fac002cf19c7
+      internalID: 359252832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_109
+      rect:
+        serializedVersion: 2
+        x: 3140
+        y: 1434
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f23900aa52d994180c9789f4d3145c
+      internalID: -1683349089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_110
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1287
+        width: 223
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e072d429f8224a41845b3de1010ae6b
+      internalID: -888876614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_111
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 1353
+        width: 134
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165d776fc7d927641932077c15debe84
+      internalID: -650202611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_112
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 1378
+        width: 120
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba778b3e880525469adfddd06f7e41f
+      internalID: -356063827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_113
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1119
+        width: 628
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ef824d0b4219e4e841ebcad2e798ed
+      internalID: -1218992967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_114
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1294
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e519bc2d5463543b814ded6fe88248
+      internalID: -1243038816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_115
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1294
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b33c01af038a284bad900fede2fa5f2
+      internalID: -1758538023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_116
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1290
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53271385b83e75049a0ce947db2b046a
+      internalID: -1775912926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_117
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1290
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d07965d7dfd8043bb24e5bc5f1704c
+      internalID: 252972314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_118
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1290
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ac6cc2e1c777543b7fabf547b27942
+      internalID: 1058905490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_119
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1290
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbd25155b5a37144a418c2951c2e5a8
+      internalID: -156526342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_120
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1288
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e622822aa5261a94483f9f393303d6b0
+      internalID: -74267701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_121
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 1104
+        width: 151
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ab5fa788ddf644bb9d6b6c2cf050d
+      internalID: -1756120420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_122
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 1098
+        width: 300
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e7818a97cd82344988e735269f23fa
+      internalID: -1924600692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_123
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1323
+        width: 177
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f95ef78ebf2c84eb20ffeb1053f37d
+      internalID: -1260913179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_124
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1297
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3af4cf6a8cdf141a0589402fb622c8
+      internalID: -1850570317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_125
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1292
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2b3255bcdbf064095dfe25821838a6
+      internalID: 1703431820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_126
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1288
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08944b8546f7c404998f4afd31ef5b2b
+      internalID: -1110482118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_127
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1288
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca873e623ad2d54bb6ec01975f83775
+      internalID: -1106931478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_128
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1294
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa35ee06db86c2f48bff00d4823c04df
+      internalID: 1471899086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_129
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1294
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6eb2c088854ab4db9e7660b4db4f1e
+      internalID: 1066762486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_130
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1084
+        width: 239
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a513ce492b05c4aa33f0f9c888cb8f
+      internalID: 223520615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_131
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 1307
+        width: 165
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d706f5bad7b7d74ab9139b49c98f814
+      internalID: -423345160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_132
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1288
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478de6ccd6e0c154aab287b256e7beaf
+      internalID: -171695690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_133
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1288
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a67139a742f5144bd7eb3da06ea779
+      internalID: -1261510592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_134
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 1288
+        width: 165
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935d544a4c66be9439e66add65801010
+      internalID: -847461776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_135
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1134
+        width: 229
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a0154c18f82b244ab618001af0d3af
+      internalID: 1712521431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_136
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1205
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e153f6c04db2140996209e4e60743c
+      internalID: -828130941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_137
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1205
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34cb015726383d4795c398198eb2b4f
+      internalID: 371101777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_138
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1130
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2828a4d8acf0cf44ab81a30dfdaf83f
+      internalID: -1423752632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_139
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1130
+        width: 85
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46397998f11c55c42ae547ee2b02ea95
+      internalID: -726037765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_140
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1141
+        width: 258
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16c806b63961184d99bb5c060d475f3
+      internalID: 1237490757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_141
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 1193
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc761780c9a083645833f0fdb2638065
+      internalID: 1941310261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_142
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1134
+        width: 98
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a682ccae48379704b92602241fc3687f
+      internalID: -262660160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_143
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1136
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce136777c9cf1f4bb09f1e225c13867
+      internalID: -1568493469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_144
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1136
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a316d69604c08ca4dae23bcbd9ce3c18
+      internalID: -1197803930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_145
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 1120
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94527bb0715bd8b48b3986764a824893
+      internalID: 1384671166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_146
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 685
+        width: 735
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56608140696dbf94e81c751e8563d306
+      internalID: 697067481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_147
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 859
+        width: 178
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b20d27b26e91624185b08b5fc8a7a29
+      internalID: -1846358709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_148
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 907
+        width: 212
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff11392f0a7911347942436aa606e912
+      internalID: 866786890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_149
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 904
+        width: 199
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07914c6b75a17e948ba88f7b267d0837
+      internalID: -363444155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_150
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 699
+        width: 111
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9cf916dbb8c6d40820560cb0e8776f
+      internalID: 55898070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_151
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 699
+        width: 109
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ec083077b460b448487967e42898b2
+      internalID: -816308792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_152
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 704
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d93ed6586cd5747b0715a775e3ccd7
+      internalID: -450499410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_153
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 704
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682f8e2ce084f4d4d8bc5836cfb51162
+      internalID: 429521813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_154
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 708
+        width: 186
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03043ce4d7fb3844698a82dfdba918b8
+      internalID: 1196567438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_155
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 748
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4515e330833cd4cad468f619a6710c
+      internalID: 1717411135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_156
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 751
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb92d95aace4305429ad6e13d6ab7363
+      internalID: 628750502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_157
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 751
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72921add80770054a9dc22875f5d2298
+      internalID: 1790841628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_158
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 748
+        width: 135
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0faad1cd4c36c48b4536fea1c63cff
+      internalID: 42814317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_159
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 704
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93e04a46710b8948943f6a1f595b5cd
+      internalID: -1730362621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_160
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 607
+        width: 113
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b318e2361dfc50c429e1ea120994b468
+      internalID: -1581199644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_161
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 595
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3719778d6b9524981db53c5b879baf
+      internalID: 43074219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_162
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 595
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af221f34e44cda04e8e0902015cc0595
+      internalID: -468677877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_163
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 595
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50a9ea162edbba45921d14460f8a6d6
+      internalID: -972022584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_164
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 595
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ccf88268168d145a8e97745bab2399
+      internalID: -1550232310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_165
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 594
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bb47264d97e18468955fade41967f1
+      internalID: -1985280956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_166
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 594
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be8fee2193adac4487e476025beee6a
+      internalID: 404460039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_167
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 594
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454e9d2585a1ee04e86a588520a58db6
+      internalID: 1894355320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_168
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 594
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058bdd8f35b956841a52ea8e366b1bfc
+      internalID: -2117740051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_169
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 594
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27a3950b52928a46a153be50ba6b2c9
+      internalID: 1829905002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_170
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 594
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34548be75bc84947a4bf3cae5e6d979
+      internalID: -1843223747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_171
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 588
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ed3eed8f9d80e4aa10e08a0a525cce
+      internalID: 2098382840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_172
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 588
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fed3ada385c1e64288c9bbdb2b5736f
+      internalID: 416977682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_173
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 588
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df15ebacb436d245adda22b7452e685
+      internalID: 32248933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_174
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 548
+        width: 102
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5794dcaa99c4b9f41ab1bdb5a3379eaa
+      internalID: 2976751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_175
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 554
+        width: 95
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9bbb031c7fe524eb16943ffe225858
+      internalID: 430798164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_176
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 554
+        width: 87
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97823486c83161348841450e6827659e
+      internalID: 1495972223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_177
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 555
+        width: 87
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af49b1ad1505f49b90d888c712e8a0
+      internalID: -1019859959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_178
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 613
+        width: 146
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd338fc641411b44bc5054898a098f9
+      internalID: -1560748292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_179
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 564
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4224b879143ded043a603f1c709556cf
+      internalID: -202017267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_180
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 564
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619fbe65519e293489aebf0e6a13292c
+      internalID: 1688871565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_181
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 564
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf3d4e018c2d59449737feb4739ee49
+      internalID: 216006803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_182
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 564
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0907cafbd1d2e47818f7fa848a585d
+      internalID: -1781118383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_183
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 564
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499497b364f6c2346aed5cc1f2eafa2b
+      internalID: 238487907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_184
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 564
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a00771544a61764f9ba80a5183dd196
+      internalID: -194231644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_185
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 564
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb7a0af1b7e5dd4e81ea3683efeb91b
+      internalID: -1781884741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_186
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 564
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f18144cf1c3034bab087f95cac087d
+      internalID: -1379528681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_187
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 510
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9358a481ef10f5b4dbd836ba194b8fa4
+      internalID: 296618987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_188
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 510
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3ef05a6a1caaf44a8f2c28ee8b187c
+      internalID: -1491344755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_189
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 510
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6af58c6835e1fe4dada2736f8afe760
+      internalID: 1920523836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_190
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 536
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb738e2ccbb6fe7488f1dcdd965325d5
+      internalID: 651866609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_191
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 536
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827744d507bac3a42a2588228622e003
+      internalID: 147581978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_192
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 479
+        width: 84
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d004985713cb2e4dac31ad797c13cae
+      internalID: 1999930704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_193
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 510
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076f0a4f7bfedd6438d88bdfad082101
+      internalID: -1348837470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_194
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 488
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f60d924d3200084091a1677c1ba30f6
+      internalID: -1445514860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_195
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 503
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c72436c1f7d53341ac2dccf304d5c1c
+      internalID: -685693725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_196
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 503
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded9cc566f4ee6d45ae7497e00e6899d
+      internalID: 635463006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_197
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 476
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac783aecbf979e74881dc0bc8ef14f18
+      internalID: 2097658081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_198
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 476
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a07f61489a08ab47852ad863b975d06
+      internalID: 295214168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_199
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 476
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dec2e20616958343bb48e4f32e9c351
+      internalID: 1985921451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_200
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 476
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42fd39ddbec3e44ba756ae71c5ad2bf
+      internalID: 1852234069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_201
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 476
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c4f0899e6df844a885bc7ebc4a9c7f
+      internalID: 2009188774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_202
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 476
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90558a37a335e40469e9bdadf5f1ec8e
+      internalID: -599665586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_203
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 476
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089661112903c7843ab34f491eb7b3f7
+      internalID: 313972180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_204
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 476
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd47cb90ec3d27a478619e1e85d5fd8b
+      internalID: 897867274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_205
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 476
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d616c506fc98d8a468a7451285e458d8
+      internalID: 1410076848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_206
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 486
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45412c1b2a7922f4cb8c63d46e4537d4
+      internalID: -128367604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_207
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 486
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9907f32a0627d4a898fc5b2370c031
+      internalID: 270623784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_208
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 486
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34e70a3a402f8b4583651939c0db3be
+      internalID: -821688851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_209
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 486
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3311d537450510949917416954fb8c55
+      internalID: -1786731997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_210
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 413
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c0d7c2c491b6348b67f3a45fa47ea6
+      internalID: -493761655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_211
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 413
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6166055d224d44ba92eb8b5da58c70
+      internalID: -1254014180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_212
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 413
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37fcc5b29412444bb16db13cdc6115c
+      internalID: -633437501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_213
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 413
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7061192c99ad9c140bade568a48396ae
+      internalID: 2063463592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_214
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 413
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47780c64e20e47a4e8792192163a6f83
+      internalID: -1423141059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_215
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 413
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc99cd9fcf89d8e44939dd6fb3cd9f8d
+      internalID: -1100273414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_216
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 413
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe56a675732b8fe46852099262ac0562
+      internalID: 1013253180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_217
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 413
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea448772b43ff9745812ecc838883d4d
+      internalID: -1881867697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_218
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 413
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94f74f4f294824419d2b5d0d4e3a248
+      internalID: -1293746567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_219
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 354
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7713ce76353694e919f3c161182b91
+      internalID: 239596044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_220
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 349
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b2597244aecae418c92ac06c1e6c9a
+      internalID: -1081066373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_221
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 349
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50444f8c38647b4a8b0bfb26a46214c
+      internalID: -1876243121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_222
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 349
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eef69ce0f4e4247910b6150837fc8c
+      internalID: 475106293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_223
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 349
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2e32e14fac9dd40a956587cee18859
+      internalID: -1601657918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_224
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 349
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd8e7436bcf52f46afd7931b24bf8dc
+      internalID: -591374571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_225
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 349
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c15e134201fb049a14d1766be6e92c
+      internalID: 1232832804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_226
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 349
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c217fee9cdbbc3a43b753e175f1f76f5
+      internalID: 1400137922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_227
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 349
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1099feb0e6dc7e4ab442c2b5e6fc841
+      internalID: 1314314635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_228
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 349
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654a82a579b13e740aac816cd2786b33
+      internalID: 1334327484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_229
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de517dc2802623e41a98776af7dc1a65
+      internalID: -1818192701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS AND TAILSET_230
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 118
+        width: 410
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76437cfedb23144e8d28beaae735478
+      internalID: -1598422914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ASSETS AND TAILSET_0: 1572008512
+      ASSETS AND TAILSET_1: -91082696
+      ASSETS AND TAILSET_10: 1329836245
+      ASSETS AND TAILSET_100: 1950064126
+      ASSETS AND TAILSET_101: -1165200985
+      ASSETS AND TAILSET_102: 249198511
+      ASSETS AND TAILSET_103: 1202662328
+      ASSETS AND TAILSET_104: 1954083818
+      ASSETS AND TAILSET_105: 2008590225
+      ASSETS AND TAILSET_106: 1515522432
+      ASSETS AND TAILSET_107: 2007245150
+      ASSETS AND TAILSET_108: 359252832
+      ASSETS AND TAILSET_109: -1683349089
+      ASSETS AND TAILSET_11: -1021541670
+      ASSETS AND TAILSET_110: -888876614
+      ASSETS AND TAILSET_111: -650202611
+      ASSETS AND TAILSET_112: -356063827
+      ASSETS AND TAILSET_113: -1218992967
+      ASSETS AND TAILSET_114: -1243038816
+      ASSETS AND TAILSET_115: -1758538023
+      ASSETS AND TAILSET_116: -1775912926
+      ASSETS AND TAILSET_117: 252972314
+      ASSETS AND TAILSET_118: 1058905490
+      ASSETS AND TAILSET_119: -156526342
+      ASSETS AND TAILSET_12: 116641387
+      ASSETS AND TAILSET_120: -74267701
+      ASSETS AND TAILSET_121: -1756120420
+      ASSETS AND TAILSET_122: -1924600692
+      ASSETS AND TAILSET_123: -1260913179
+      ASSETS AND TAILSET_124: -1850570317
+      ASSETS AND TAILSET_125: 1703431820
+      ASSETS AND TAILSET_126: -1110482118
+      ASSETS AND TAILSET_127: -1106931478
+      ASSETS AND TAILSET_128: 1471899086
+      ASSETS AND TAILSET_129: 1066762486
+      ASSETS AND TAILSET_13: -423145644
+      ASSETS AND TAILSET_130: 223520615
+      ASSETS AND TAILSET_131: -423345160
+      ASSETS AND TAILSET_132: -171695690
+      ASSETS AND TAILSET_133: -1261510592
+      ASSETS AND TAILSET_134: -847461776
+      ASSETS AND TAILSET_135: 1712521431
+      ASSETS AND TAILSET_136: -828130941
+      ASSETS AND TAILSET_137: 371101777
+      ASSETS AND TAILSET_138: -1423752632
+      ASSETS AND TAILSET_139: -726037765
+      ASSETS AND TAILSET_14: -1939414630
+      ASSETS AND TAILSET_140: 1237490757
+      ASSETS AND TAILSET_141: 1941310261
+      ASSETS AND TAILSET_142: -262660160
+      ASSETS AND TAILSET_143: -1568493469
+      ASSETS AND TAILSET_144: -1197803930
+      ASSETS AND TAILSET_145: 1384671166
+      ASSETS AND TAILSET_146: 697067481
+      ASSETS AND TAILSET_147: -1846358709
+      ASSETS AND TAILSET_148: 866786890
+      ASSETS AND TAILSET_149: -363444155
+      ASSETS AND TAILSET_15: -754088333
+      ASSETS AND TAILSET_150: 55898070
+      ASSETS AND TAILSET_151: -816308792
+      ASSETS AND TAILSET_152: -450499410
+      ASSETS AND TAILSET_153: 429521813
+      ASSETS AND TAILSET_154: 1196567438
+      ASSETS AND TAILSET_155: 1717411135
+      ASSETS AND TAILSET_156: 628750502
+      ASSETS AND TAILSET_157: 1790841628
+      ASSETS AND TAILSET_158: 42814317
+      ASSETS AND TAILSET_159: -1730362621
+      ASSETS AND TAILSET_16: -1048660140
+      ASSETS AND TAILSET_160: -1581199644
+      ASSETS AND TAILSET_161: 43074219
+      ASSETS AND TAILSET_162: -468677877
+      ASSETS AND TAILSET_163: -972022584
+      ASSETS AND TAILSET_164: -1550232310
+      ASSETS AND TAILSET_165: -1985280956
+      ASSETS AND TAILSET_166: 404460039
+      ASSETS AND TAILSET_167: 1894355320
+      ASSETS AND TAILSET_168: -2117740051
+      ASSETS AND TAILSET_169: 1829905002
+      ASSETS AND TAILSET_17: 719849648
+      ASSETS AND TAILSET_170: -1843223747
+      ASSETS AND TAILSET_171: 2098382840
+      ASSETS AND TAILSET_172: 416977682
+      ASSETS AND TAILSET_173: 32248933
+      ASSETS AND TAILSET_174: 2976751
+      ASSETS AND TAILSET_175: 430798164
+      ASSETS AND TAILSET_176: 1495972223
+      ASSETS AND TAILSET_177: -1019859959
+      ASSETS AND TAILSET_178: -1560748292
+      ASSETS AND TAILSET_179: -202017267
+      ASSETS AND TAILSET_18: -505842135
+      ASSETS AND TAILSET_180: 1688871565
+      ASSETS AND TAILSET_181: 216006803
+      ASSETS AND TAILSET_182: -1781118383
+      ASSETS AND TAILSET_183: 238487907
+      ASSETS AND TAILSET_184: -194231644
+      ASSETS AND TAILSET_185: -1781884741
+      ASSETS AND TAILSET_186: -1379528681
+      ASSETS AND TAILSET_187: 296618987
+      ASSETS AND TAILSET_188: -1491344755
+      ASSETS AND TAILSET_189: 1920523836
+      ASSETS AND TAILSET_19: 731563783
+      ASSETS AND TAILSET_190: 651866609
+      ASSETS AND TAILSET_191: 147581978
+      ASSETS AND TAILSET_192: 1999930704
+      ASSETS AND TAILSET_193: -1348837470
+      ASSETS AND TAILSET_194: -1445514860
+      ASSETS AND TAILSET_195: -685693725
+      ASSETS AND TAILSET_196: 635463006
+      ASSETS AND TAILSET_197: 2097658081
+      ASSETS AND TAILSET_198: 295214168
+      ASSETS AND TAILSET_199: 1985921451
+      ASSETS AND TAILSET_2: 510507810
+      ASSETS AND TAILSET_20: -1032697330
+      ASSETS AND TAILSET_200: 1852234069
+      ASSETS AND TAILSET_201: 2009188774
+      ASSETS AND TAILSET_202: -599665586
+      ASSETS AND TAILSET_203: 313972180
+      ASSETS AND TAILSET_204: 897867274
+      ASSETS AND TAILSET_205: 1410076848
+      ASSETS AND TAILSET_206: -128367604
+      ASSETS AND TAILSET_207: 270623784
+      ASSETS AND TAILSET_208: -821688851
+      ASSETS AND TAILSET_209: -1786731997
+      ASSETS AND TAILSET_21: 903188660
+      ASSETS AND TAILSET_210: -493761655
+      ASSETS AND TAILSET_211: -1254014180
+      ASSETS AND TAILSET_212: -633437501
+      ASSETS AND TAILSET_213: 2063463592
+      ASSETS AND TAILSET_214: -1423141059
+      ASSETS AND TAILSET_215: -1100273414
+      ASSETS AND TAILSET_216: 1013253180
+      ASSETS AND TAILSET_217: -1881867697
+      ASSETS AND TAILSET_218: -1293746567
+      ASSETS AND TAILSET_219: 239596044
+      ASSETS AND TAILSET_22: -27657012
+      ASSETS AND TAILSET_220: -1081066373
+      ASSETS AND TAILSET_221: -1876243121
+      ASSETS AND TAILSET_222: 475106293
+      ASSETS AND TAILSET_223: -1601657918
+      ASSETS AND TAILSET_224: -591374571
+      ASSETS AND TAILSET_225: 1232832804
+      ASSETS AND TAILSET_226: 1400137922
+      ASSETS AND TAILSET_227: 1314314635
+      ASSETS AND TAILSET_228: 1334327484
+      ASSETS AND TAILSET_229: -1818192701
+      ASSETS AND TAILSET_23: 1951792985
+      ASSETS AND TAILSET_230: -1598422914
+      ASSETS AND TAILSET_24: 1851965560
+      ASSETS AND TAILSET_25: 1180590212
+      ASSETS AND TAILSET_26: -632959791
+      ASSETS AND TAILSET_27: 1837852120
+      ASSETS AND TAILSET_28: 1166125169
+      ASSETS AND TAILSET_29: 266589072
+      ASSETS AND TAILSET_3: -1303467544
+      ASSETS AND TAILSET_30: 422764261
+      ASSETS AND TAILSET_31: -122973622
+      ASSETS AND TAILSET_32: -1998095819
+      ASSETS AND TAILSET_33: -1917304919
+      ASSETS AND TAILSET_34: -1379736566
+      ASSETS AND TAILSET_35: -1361913656
+      ASSETS AND TAILSET_36: 1913284411
+      ASSETS AND TAILSET_37: -2101620679
+      ASSETS AND TAILSET_38: 181210652
+      ASSETS AND TAILSET_39: 1330700932
+      ASSETS AND TAILSET_4: -1409273976
+      ASSETS AND TAILSET_40: -1046330299
+      ASSETS AND TAILSET_41: -204972374
+      ASSETS AND TAILSET_42: -816264114
+      ASSETS AND TAILSET_43: 1804863135
+      ASSETS AND TAILSET_44: -1556258914
+      ASSETS AND TAILSET_45: -703087197
+      ASSETS AND TAILSET_46: 1433422826
+      ASSETS AND TAILSET_47: 796609838
+      ASSETS AND TAILSET_48: -168354768
+      ASSETS AND TAILSET_49: 173985281
+      ASSETS AND TAILSET_5: 149019748
+      ASSETS AND TAILSET_50: -126343680
+      ASSETS AND TAILSET_51: -1756760550
+      ASSETS AND TAILSET_52: -273441427
+      ASSETS AND TAILSET_53: 858970769
+      ASSETS AND TAILSET_54: 2110280349
+      ASSETS AND TAILSET_55: 1288754907
+      ASSETS AND TAILSET_56: 231498112
+      ASSETS AND TAILSET_57: -832309332
+      ASSETS AND TAILSET_58: -502905250
+      ASSETS AND TAILSET_59: 1858072163
+      ASSETS AND TAILSET_6: -1234865156
+      ASSETS AND TAILSET_60: -1993365933
+      ASSETS AND TAILSET_61: -1857785268
+      ASSETS AND TAILSET_62: 1079687379
+      ASSETS AND TAILSET_63: -1568261459
+      ASSETS AND TAILSET_64: -1469617797
+      ASSETS AND TAILSET_65: 1645017889
+      ASSETS AND TAILSET_66: -1747288895
+      ASSETS AND TAILSET_67: 321962358
+      ASSETS AND TAILSET_68: 1043191393
+      ASSETS AND TAILSET_69: 1352456681
+      ASSETS AND TAILSET_7: -1915394250
+      ASSETS AND TAILSET_70: -167996718
+      ASSETS AND TAILSET_71: -1623137160
+      ASSETS AND TAILSET_72: 498860249
+      ASSETS AND TAILSET_73: 1706598549
+      ASSETS AND TAILSET_74: 291124322
+      ASSETS AND TAILSET_75: -385546329
+      ASSETS AND TAILSET_76: -825754367
+      ASSETS AND TAILSET_77: 2125818173
+      ASSETS AND TAILSET_78: -2121694288
+      ASSETS AND TAILSET_79: -1679566090
+      ASSETS AND TAILSET_8: -1303443811
+      ASSETS AND TAILSET_80: -1346650136
+      ASSETS AND TAILSET_81: 319811918
+      ASSETS AND TAILSET_82: -1104731504
+      ASSETS AND TAILSET_83: -1535887094
+      ASSETS AND TAILSET_84: -950079542
+      ASSETS AND TAILSET_85: -1607750715
+      ASSETS AND TAILSET_86: 1696003842
+      ASSETS AND TAILSET_87: -663101969
+      ASSETS AND TAILSET_88: -1827115809
+      ASSETS AND TAILSET_89: -914530491
+      ASSETS AND TAILSET_9: -1808364492
+      ASSETS AND TAILSET_90: -138788060
+      ASSETS AND TAILSET_91: -1507673960
+      ASSETS AND TAILSET_92: -1300735266
+      ASSETS AND TAILSET_93: -1212989370
+      ASSETS AND TAILSET_94: 1985871953
+      ASSETS AND TAILSET_95: 1741770315
+      ASSETS AND TAILSET_96: -985670572
+      ASSETS AND TAILSET_97: 82360249
+      ASSETS AND TAILSET_98: 1503263977
+      ASSETS AND TAILSET_99: 748896663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
