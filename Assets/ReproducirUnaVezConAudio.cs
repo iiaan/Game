@@ -15,11 +15,14 @@ public class ReproducirUnaVezConAudio : MonoBehaviour
     [SerializeField]
     private AudioClip voice;
 
+    [SerializeField]
+    public DialogoAbrirCofre Activar;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = voice;
-
+        Activar.Active = true;
         if (ReproducirUnaVezConAudio.Instance == null)
         {
             animator = GetComponent<Animator>();
@@ -40,7 +43,8 @@ public class ReproducirUnaVezConAudio : MonoBehaviour
         animator.Play("TransicionEscena");
         audioSource.PlayOneShot(voice);
         yield return new WaitForSeconds(Segundos);
-        movimiento.movimientoBloqueado = false;
         gameObject.SetActive(false);
+
+        Activar.Active = false;
     }
 }

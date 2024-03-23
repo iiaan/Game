@@ -8,9 +8,6 @@ public class AbrirCofre : MonoBehaviour
     private bool isPlayerInRange;
     public GameObject AyudaPlayer;
 
-    [SerializeField]
-    public GuardarPosicion UltimaPosicion;
-
     void Start()
     {
         AyudaPlayer.SetActive(false);
@@ -20,8 +17,6 @@ public class AbrirCofre : MonoBehaviour
     {
         if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.E))
         {
-            UltimaPosicion.UltimaPosicion = true;
-
             Invoke("CargarEscena", 0.5f);
         }
     }
