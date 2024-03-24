@@ -7,9 +7,17 @@ public class AbrirCofre : MonoBehaviour
 {
     private bool isPlayerInRange;
     public GameObject AyudaPlayer;
+    private Animator animator;
+
+    [SerializeField]
+    private GameObject Transicion;
+
+    [SerializeField]
+    private Movement Movimiento;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         AyudaPlayer.SetActive(false);
     }
 
@@ -17,7 +25,9 @@ public class AbrirCofre : MonoBehaviour
     {
         if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.E))
         {
-            Invoke("CargarEscena", 0.5f);
+            Transicion.SetActive(true);
+            Movimiento.movimientoBloqueado = true;
+            Invoke("CargarEscena", 1.6f);
         }
     }
 

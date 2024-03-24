@@ -8,8 +8,6 @@ public class ReproducirUnaVezConAudio : MonoBehaviour
     private Animator animator;
     private float Segundos = 3.4f;
 
-    [SerializeField]
-    private Movement movimiento;
     private AudioSource audioSource;
 
     [SerializeField]
@@ -26,7 +24,7 @@ public class ReproducirUnaVezConAudio : MonoBehaviour
         if (ReproducirUnaVezConAudio.Instance == null)
         {
             animator = GetComponent<Animator>();
-            movimiento.movimientoBloqueado = true;
+
             StartCoroutine(ReproducirYDestruir());
             ReproducirUnaVezConAudio.Instance = this;
             DontDestroyOnLoad(this.gameObject);

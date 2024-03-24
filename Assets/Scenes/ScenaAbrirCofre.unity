@@ -481,6 +481,7 @@ MonoBehaviour:
   AudioTyping: 2
   personajePrincipal: {fileID: 1592865961}
   ActivarAnimacionPasarEscena: 0
+  Escrito: 0
 --- !u!82 &319135368
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5116,7 +5117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &8937094417289986221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5129,7 +5130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac4ed4901654e44aecf8bbe02eaedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movimiento: {fileID: 0}
   voice: {fileID: 8300000, guid: 73e268466b34a3e4aae8eb36c2f55e28, type: 3}
   Activar: {fileID: 319135367}
 --- !u!82 &8937094417289986222

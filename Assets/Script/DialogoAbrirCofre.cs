@@ -43,6 +43,8 @@ public class DialogoAbrirCofre : MonoBehaviour
 
     public bool ActivarAnimacionPasarEscena = false;
 
+    public bool Escrito = false;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -51,21 +53,23 @@ public class DialogoAbrirCofre : MonoBehaviour
 
     void Update()
     {
-        if (!Active)
+        if (!Active && !dialogueStarted)
         {
             StartDialog();
         }
         else if (
             Input.GetKeyDown(KeyCode.E)
             || Input.GetMouseButtonDown(0)
-            || Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogueLines[lineIndex]
+            || Input.GetKeyDown(KeyCode.Space)
+                && dialogueText.text == dialogueLines[lineIndex]
+                && !dialogueStarted
         )
         {
             if (lineIndex < dialogueLines.Length - 1)
             {
                 NextDialogue();
             }
-            else
+            else if (Escrito == true)
             {
                 StartCoroutine(EndDialog());
             }
@@ -95,6 +99,7 @@ public class DialogoAbrirCofre : MonoBehaviour
         }
         else
         {
+            Debug.Log("cosas");
             StartCoroutine(EndDialog());
         }
     }
@@ -117,6 +122,9 @@ public class DialogoAbrirCofre : MonoBehaviour
 
             yield return new WaitForSecondsRealtime(TypingTime);
         }
+
+        yield return new WaitForSecondsRealtime(2f);
+        Escrito = true;
     }
 
     IEnumerator EndDialog()

@@ -6,7 +6,7 @@ public class ReproducirAnimacionUnaVez : MonoBehaviour
 {
     public static ReproducirAnimacionUnaVez Instance;
     private Animator animator;
-    private float Segundos = 3.9f;
+    private float Segundos = 3.3f;
 
     [SerializeField]
     private Movement movimiento;
