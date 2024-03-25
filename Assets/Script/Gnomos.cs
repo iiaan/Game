@@ -25,11 +25,12 @@ public class Gnomos : MonoBehaviour
     public GameObject interfaz;
 
     public float segundos = 2f;
+    private Animator animator;
 
     void Start()
     {
         AyudaPlayer.SetActive(false);
-
+        animator = GetComponent<Animator>();
         interfaz.SetActive(false);
     }
 
@@ -38,8 +39,17 @@ public class Gnomos : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && Colisionando == true && !activando && !ejecuntado)
         {
             activando = true;
-            ActivandoAyuda = true;
+
             StartCoroutine(ActivarConDelay());
+            ActivandoAyuda = true;
+        }
+        else if (ActivandoAyuda == true)
+        {
+            animator.SetBool("AnimacionSalto", true);
+        }
+        else
+        {
+            animator.SetBool("AnimacionSalto", false);
         }
     }
 
@@ -47,8 +57,9 @@ public class Gnomos : MonoBehaviour
     {
         GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
         animacion.ActivarAnimacion(true);
+
         AyudaPlayer.SetActive(false);
-        yield return new WaitForSeconds(segundos);
+        yield return new WaitForSecondsRealtime(segundos);
         ControladorDeSonidos.Instance.EjecutarSonido(up);
 
         if (interfaz.activeSelf)

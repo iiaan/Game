@@ -7,9 +7,6 @@ public class Movement : MonoBehaviour
 {
     private Rigidbody2D Rigidbody2D;
     private Animator animator;
-    public bool Left;
-    public bool Right;
-    public bool Default;
     private float Horizontal;
     private float Vertical;
 

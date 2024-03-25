@@ -69,12 +69,6 @@ public class ChangeLevel : MonoBehaviour
 
                     DontDestroyOnLoad(interfaz);
                 }
-                else if (collision.CompareTag("Capsule9"))
-                {
-                    CargarEscena(10);
-
-                    DontDestroyOnLoad(interfaz);
-                }
             }
             else if (collision.CompareTag("Capsule"))
             {
