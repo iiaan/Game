@@ -26,30 +26,32 @@ public class Gnomos : MonoBehaviour
 
     public float segundos = 2f;
     private Animator animator;
+    private Rigidbody2D rb;
+
+    public Movement moviemiento;
 
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         AyudaPlayer.SetActive(false);
         animator = GetComponent<Animator>();
         interfaz.SetActive(false);
+        rb.bodyType = RigidbodyType2D.Dynamic;
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && Colisionando == true && !activando && !ejecuntado)
         {
+            moviemiento.movimientoBloqueado = true;
             activando = true;
 
             StartCoroutine(ActivarConDelay());
             ActivandoAyuda = true;
         }
-        else if (ActivandoAyuda == true)
+        else if (ActivandoAyuda == true && !ejecuntado)
         {
-            animator.SetBool("AnimacionSalto", true);
-        }
-        else
-        {
-            animator.SetBool("AnimacionSalto", false);
+            StartCoroutine(ActivarAnimacionSalto());
         }
     }
 
@@ -66,6 +68,7 @@ public class Gnomos : MonoBehaviour
         {
             if (!ejecuntado)
             {
+                rb.bodyType = RigidbodyType2D.Dynamic;
                 GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);
                 gnomo.SetActive(false);
                 activando = false;
@@ -78,6 +81,7 @@ public class Gnomos : MonoBehaviour
             interfaz.SetActive(true);
             if (!ejecuntado)
             {
+                rb.bodyType = RigidbodyType2D.Dynamic;
                 GnomosRecogidos.Instance.SumarGnomos(CantidadGnomos);
                 gnomo.SetActive(false);
                 activando = false;
@@ -85,6 +89,10 @@ public class Gnomos : MonoBehaviour
                 ActivandoAyuda = false;
             }
         }
+
+        yield return new WaitForSecondsRealtime(1f);
+        animator.SetBool("AnimacionSalto", false);
+        moviemiento.movimientoBloqueado = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -103,5 +111,18 @@ public class Gnomos : MonoBehaviour
             AyudaPlayer.SetActive(false);
             Colisionando = false;
         }
+    }
+
+    IEnumerator ActivarAnimacionSalto()
+    {
+        ActivandoAyuda = false;
+        yield return new WaitForSecondsRealtime(segundos);
+        AnimacionSalto();
+    }
+
+    private void AnimacionSalto()
+    {
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        animator.SetBool("AnimacionSalto", true);
     }
 }
