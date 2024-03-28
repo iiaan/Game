@@ -7213,7 +7213,7 @@ PrefabInstance:
     - target: {fileID: 1934206850706593688, guid: 2700a20c449c5254884f29f54a47c97c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4742497292966070005, guid: 2700a20c449c5254884f29f54a47c97c,
         type: 3}
@@ -11084,7 +11084,7 @@ PrefabInstance:
     - target: {fileID: 7845346998506945749, guid: 6ff88077c6ff92f48a0f7738e05591aa,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Capsule7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13260,6 +13260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353243771908686319, guid: 5e97889e46ab9954c840d3257f06d4e9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9126734246552301235, guid: 5e97889e46ab9954c840d3257f06d4e9,
         type: 3}

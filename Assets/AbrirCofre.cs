@@ -7,7 +7,6 @@ public class AbrirCofre : MonoBehaviour
 {
     private bool isPlayerInRange;
     public GameObject AyudaPlayer;
-    private Animator animator;
 
     [SerializeField]
     private GameObject Transicion;
@@ -17,7 +16,6 @@ public class AbrirCofre : MonoBehaviour
 
     void Start()
     {
-        animator = GetComponent<Animator>();
         AyudaPlayer.SetActive(false);
     }
 

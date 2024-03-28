@@ -24,7 +24,7 @@ public class Gnomos : MonoBehaviour
     [SerializeField]
     public GameObject interfaz;
 
-    public float segundos = 2f;
+    public float segundos = 1.5f;
     private Animator animator;
     private Rigidbody2D rb;
 
@@ -90,7 +90,7 @@ public class Gnomos : MonoBehaviour
             }
         }
 
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSecondsRealtime(2f);
         animator.SetBool("AnimacionSalto", false);
         moviemiento.movimientoBloqueado = false;
     }

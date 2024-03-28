@@ -318,12 +318,12 @@ PrefabInstance:
     - target: {fileID: 2509624062902292782, guid: 0e287ee29c806024fa96940369ae5730,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18
+      value: -3.13
       objectReference: {fileID: 0}
     - target: {fileID: 2509624062902292782, guid: 0e287ee29c806024fa96940369ae5730,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.13
+      value: -4.47
       objectReference: {fileID: 0}
     - target: {fileID: 2509624062902292782, guid: 0e287ee29c806024fa96940369ae5730,
         type: 3}
@@ -380,6 +380,11 @@ PrefabInstance:
       propertyPath: moviemiento
       value: 
       objectReference: {fileID: 2023661660}
+    - target: {fileID: 7258294937649156405, guid: 0e287ee29c806024fa96940369ae5730,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

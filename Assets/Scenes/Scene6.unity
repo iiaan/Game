@@ -613,6 +613,16 @@ PrefabInstance:
       propertyPath: AyudaPlayer
       value: 
       objectReference: {fileID: 54077250}
+    - target: {fileID: 7139528953129867055, guid: 0e287ee29c806024fa96940369ae5730,
+        type: 3}
+      propertyPath: moviemiento
+      value: 
+      objectReference: {fileID: 87659274}
+    - target: {fileID: 7258294937649156405, guid: 0e287ee29c806024fa96940369ae5730,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

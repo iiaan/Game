@@ -12370,7 +12370,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -105541197
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300114, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12983,6 +12983,16 @@ PrefabInstance:
       propertyPath: AyudaPlayer
       value: 
       objectReference: {fileID: 5677263299066182428}
+    - target: {fileID: 7139528953129867055, guid: 0e287ee29c806024fa96940369ae5730,
+        type: 3}
+      propertyPath: moviemiento
+      value: 
+      objectReference: {fileID: 1847882597}
+    - target: {fileID: 7258294937649156405, guid: 0e287ee29c806024fa96940369ae5730,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -13008,17 +13018,17 @@ PrefabInstance:
     - target: {fileID: 4177826500879464042, guid: db57222ec4d296345bbab6b0b5c17edd,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4177826500879464042, guid: db57222ec4d296345bbab6b0b5c17edd,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4177826500879464042, guid: db57222ec4d296345bbab6b0b5c17edd,
         type: 3}
       propertyPath: m_SortingLayerID
-      value: -44025399
+      value: -105541197
       objectReference: {fileID: 0}
     - target: {fileID: 5225151129931979560, guid: db57222ec4d296345bbab6b0b5c17edd,
         type: 3}

@@ -1902,7 +1902,7 @@ PrefabInstance:
         type: 3}
       propertyPath: AyudaPlayer
       value: 
-      objectReference: {fileID: 1993219387}
+      objectReference: {fileID: 1873763685}
     - target: {fileID: 7139528953129867055, guid: 0e287ee29c806024fa96940369ae5730,
         type: 3}
       propertyPath: moviemiento
@@ -4250,7 +4250,7 @@ PrefabInstance:
     - target: {fileID: 5082882892045357202, guid: c972fe215db569b44b9615adcd48d820,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5082882892045357202, guid: c972fe215db569b44b9615adcd48d820,
         type: 3}
@@ -6460,6 +6460,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1873763685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5082882892045357202, guid: c972fe215db569b44b9615adcd48d820,
+    type: 3}
+  m_PrefabInstance: {fileID: 1050695285}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1880137895
 GameObject:
   m_ObjectHideFlags: 0
@@ -6861,7 +6867,7 @@ PrefabInstance:
     - target: {fileID: 8937094417382498712, guid: fd4ec4b0c5ee6e34bb81244515a9b532,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6946,12 +6952,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbeab85cbe3b90b41a444794aab794ef, type: 3}
---- !u!1 &1993219387 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6812768504093980635, guid: 2700a20c449c5254884f29f54a47c97c,
-    type: 3}
-  m_PrefabInstance: {fileID: 8403288931209303166}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2040528505
 GameObject:
   m_ObjectHideFlags: 0
