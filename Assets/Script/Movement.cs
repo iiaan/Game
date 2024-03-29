@@ -58,11 +58,6 @@ public class Movement : MonoBehaviour
 
         if (!movimientoBloqueado)
         {
-            Horizontal = Input.GetAxisRaw("Horizontal");
-            Vertical = Input.GetAxisRaw("Vertical");
-
-            moveInput = new Vector2(Horizontal, Vertical).normalized;
-
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 if (!estaQuieto)
@@ -232,10 +227,13 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float currentSpeed = estaCorriendo ? velocidadExtra : speed;
-        Rigidbody2D.velocity = new Vector2(Horizontal, Vertical);
-        Rigidbody2D.MovePosition(
-            Rigidbody2D.position + moveInput * currentSpeed * Time.fixedDeltaTime
-        );
+        if (!movimientoBloqueado)
+        {
+            float currentSpeed = estaCorriendo ? velocidadExtra : speed;
+            Rigidbody2D.velocity = new Vector2(Horizontal, Vertical);
+            Rigidbody2D.MovePosition(
+                Rigidbody2D.position + moveInput * currentSpeed * Time.fixedDeltaTime
+            );
+        }
     }
 }

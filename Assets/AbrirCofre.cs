@@ -14,7 +14,6 @@ public class AbrirCofre : MonoBehaviour
 
     [SerializeField]
     private Movement Movimiento;
-    private GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
 
     void Start()
     {
@@ -34,6 +33,7 @@ public class AbrirCofre : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
         if (other.gameObject.CompareTag("Player") && gnomo == false)
         {
             AyudaPlayer.SetActive(false);
@@ -47,6 +47,7 @@ public class AbrirCofre : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
         if (other.gameObject.CompareTag("Player") && gnomo == false)
         {
             AyudaPlayer.SetActive(true);
