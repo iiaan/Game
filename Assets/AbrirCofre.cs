@@ -7,12 +7,14 @@ public class AbrirCofre : MonoBehaviour
 {
     private bool isPlayerInRange;
     public GameObject AyudaPlayer;
+    public GameObject AyudaPlayer1;
 
     [SerializeField]
     private GameObject Transicion;
 
     [SerializeField]
     private Movement Movimiento;
+    private GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
 
     void Start()
     {
@@ -21,7 +23,8 @@ public class AbrirCofre : MonoBehaviour
 
     void Update()
     {
-        if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.E))
+        GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
+        if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.E) && gnomo == false)
         {
             Transicion.SetActive(true);
             Movimiento.movimientoBloqueado = true;
@@ -31,19 +34,27 @@ public class AbrirCofre : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && gnomo == false)
         {
             AyudaPlayer.SetActive(false);
             isPlayerInRange = false;
+        }
+        else
+        {
+            AyudaPlayer1.SetActive(false);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && gnomo == false)
         {
             AyudaPlayer.SetActive(true);
             isPlayerInRange = true;
+        }
+        else
+        {
+            AyudaPlayer1.SetActive(true);
         }
     }
 
