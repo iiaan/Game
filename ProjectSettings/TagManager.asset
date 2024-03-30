@@ -16,6 +16,9 @@ TagManager:
   - Capsule5
   - Capsule6
   - Capsule7
+  - Capsule8
+  - Capsule9
+  - CapsuleCapas
   layers:
   - Default
   - TransparentFX

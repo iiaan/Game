@@ -3486,14 +3486,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2491193995288167003, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
         type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491193995288167003, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
+        type: 3}
       propertyPath: m_Pitch
-      value: 3
+      value: 1.12
       objectReference: {fileID: 0}
     - target: {fileID: 2491193995288167003, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
         type: 3}
       propertyPath: m_Volume
       value: 0.43
       objectReference: {fileID: 0}
+    - target: {fileID: 2491193995288167003, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 93731a7764cd8d742be129a8166b5d61, type: 3}
     - target: {fileID: 2491193995288167003, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
         type: 3}
       propertyPath: OutputAudioMixerGroup
