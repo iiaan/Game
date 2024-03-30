@@ -61,7 +61,6 @@ public class DialogManager : MonoBehaviour
             animator = GetComponent<Animator>();
             MovimientoJugador.movimientoBloqueado = true;
             DialogManager.Instance = this;
-            DontDestroyOnLoad(this.gameObject);
         }
         else
         {

@@ -98,6 +98,7 @@ public class ChangeLevel : MonoBehaviour
             {
                 AyudaPasarNivel.SetActive(true);
             }
+            else if (collision.CompareTag("Capsule8")) { }
         }
     }
 

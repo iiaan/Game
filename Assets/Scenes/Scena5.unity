@@ -2695,6 +2695,11 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SoundButton
       objectReference: {fileID: 0}
+    - target: {fileID: 4754300372329278617, guid: 5e97889e46ab9954c840d3257f06d4e9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4869369993071086776, guid: 5e97889e46ab9954c840d3257f06d4e9,
         type: 3}
       propertyPath: Movimiento
@@ -4773,6 +4778,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5606779303565637313, guid: 666308f699c65b44fb8754c3eb3a46b1,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: f51447a9b71f067409c4d048d90862b0,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

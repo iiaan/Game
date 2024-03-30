@@ -58,6 +58,11 @@ public class Movement : MonoBehaviour
 
         if (!movimientoBloqueado)
         {
+            Horizontal = Input.GetAxisRaw("Horizontal");
+            Vertical = Input.GetAxisRaw("Vertical");
+
+            moveInput = new Vector2(Horizontal, Vertical).normalized;
+
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 if (!estaQuieto)

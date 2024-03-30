@@ -9835,12 +9835,12 @@ PrefabInstance:
     - target: {fileID: 2509624062902292782, guid: 0e287ee29c806024fa96940369ae5730,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.04
+      value: 4.39
       objectReference: {fileID: 0}
     - target: {fileID: 2509624062902292782, guid: 0e287ee29c806024fa96940369ae5730,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.98
+      value: -0.58
       objectReference: {fileID: 0}
     - target: {fileID: 2509624062902292782, guid: 0e287ee29c806024fa96940369ae5730,
         type: 3}
@@ -9926,7 +9926,8 @@ PrefabInstance:
         type: 3}
       propertyPath: interfaz
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5677263299274494865, guid: 734081e022b8cd5449d42daeaeb92681,
+        type: 3}
     - target: {fileID: 7139528953129867055, guid: 0e287ee29c806024fa96940369ae5730,
         type: 3}
       propertyPath: animacion
