@@ -4671,6 +4671,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 456378873}
     m_Modifications:
+    - target: {fileID: 4446931538569399893, guid: a33b79a6f50210a49990b7d1f291feb7,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446931538569399893, guid: a33b79a6f50210a49990b7d1f291feb7,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446931538569399893, guid: a33b79a6f50210a49990b7d1f291feb7,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -44025399
+      objectReference: {fileID: 0}
     - target: {fileID: 7395994957199294320, guid: a33b79a6f50210a49990b7d1f291feb7,
         type: 3}
       propertyPath: m_LocalScale.x

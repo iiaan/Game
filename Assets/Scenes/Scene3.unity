@@ -14684,6 +14684,11 @@ PrefabInstance:
       propertyPath: MovimientoJugador
       value: 
       objectReference: {fileID: 99406809}
+    - target: {fileID: 6067497145018872829, guid: 094bcb098daff2c4f9b956ac6c966255,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: La batalla no es contra los monstruos, sino contra el destino mismo.
+      objectReference: {fileID: 0}
     - target: {fileID: 7640539516258152133, guid: 094bcb098daff2c4f9b956ac6c966255,
         type: 3}
       propertyPath: m_Name

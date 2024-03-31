@@ -92,6 +92,7 @@ public class Gnomos : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(2f);
         animator.SetBool("AnimacionSalto", false);
+        yield return new WaitForSecondsRealtime(1f);
         moviemiento.movimientoBloqueado = false;
     }
 

@@ -123,85 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &2739661
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2491193995288167003, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_Pitch
-      value: 1.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 2491193995288167003, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: 24300002, guid: f51447a9b71f067409c4d048d90862b0,
-        type: 2}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.3101368
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.4086087
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.029682163
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085017106962344242, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5583849214395074146, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1,
-        type: 3}
-      propertyPath: m_Name
-      value: ControladorSonido2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 926ee458b6ff9bd43b86a0dc84cdbfe1, type: 3}
 --- !u!1 &13637124
 GameObject:
   m_ObjectHideFlags: 0
@@ -10958,6 +10879,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 593073240056167765, guid: 5e97889e46ab9954c840d3257f06d4e9,
+        type: 3}
+      propertyPath: Movimiento
+      value: 
+      objectReference: {fileID: 9220936913288559963}
     - target: {fileID: 5353243771908686319, guid: 5e97889e46ab9954c840d3257f06d4e9,
         type: 3}
       propertyPath: m_Name
@@ -18544,8 +18470,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - Me gusta las patatas
-  - y aqui tambien
+  - "\xA1Oh, aventurero valiente! Has demostrado tu habilidad al encontrar a todos
+    los gnomos escondidos."
+  - "\xA1Solo te aguarda el desafio final: hallar el camino al rey! \xA1Adelante,
+    con determinacion y coraje!"
   dialoguePanel: {fileID: 946640055}
   dialogueText: {fileID: 837868186}
   Canvas: {fileID: 222556984}
@@ -18641,7 +18569,6 @@ SceneRoots:
   - {fileID: 744005790}
   - {fileID: 1649495740}
   - {fileID: 931432381}
-  - {fileID: 2739661}
   - {fileID: 2131575771}
   - {fileID: 1084154967114787651}
   - {fileID: 821768962}

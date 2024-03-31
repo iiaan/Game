@@ -8409,7 +8409,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Active: 0
   dialogueLines:
-  - OLa soy marroquino
+  - "\xA1Una entrada secreta! Esto promete ser interesante. \xA1Hora de explorar
+    lo desconocido!"
   dialoguePanel: {fileID: 1591313538}
   dialogueText: {fileID: 1591313537}
   Canvas: {fileID: 1591313536}
