@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -23,7 +21,7 @@ public class AbrirCofre : MonoBehaviour
     void Update()
     {
         GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
-        if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.E) && gnomo == false)
+        if (isPlayerInRange == true && Input.GetKeyDown(KeyCode.E) && gnomo == null)
         {
             Transicion.SetActive(true);
             Movimiento.movimientoBloqueado = true;
@@ -34,7 +32,7 @@ public class AbrirCofre : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
-        if (other.gameObject.CompareTag("Player") && gnomo == false)
+        if (other.gameObject.CompareTag("Player") && gnomo == null)
         {
             AyudaPlayer.SetActive(false);
             isPlayerInRange = false;
@@ -48,7 +46,7 @@ public class AbrirCofre : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         GameObject gnomo = GameObject.FindGameObjectWithTag("gnomos");
-        if (other.gameObject.CompareTag("Player") && gnomo == false)
+        if (other.gameObject.CompareTag("Player") && gnomo == null)
         {
             AyudaPlayer.SetActive(true);
             isPlayerInRange = true;
